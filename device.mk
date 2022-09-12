@@ -21,7 +21,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_ven
 
 # A/B
 PRODUCT_PACKAGES += \
-    android.hardware.boot-service.default
+    android.hardware.boot-service.default \
+    android.hardware.boot-service.default_recovery
 
 PRODUCT_PACKAGES += \
     update_engine \
