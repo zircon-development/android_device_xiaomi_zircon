@@ -249,6 +249,9 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2.vendor
 
+# Properties
+include $(LOCAL_PATH)/properties/vendor_logtag.mk
+
 # Radio
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.2.vendor \
