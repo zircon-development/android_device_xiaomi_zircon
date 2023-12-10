@@ -735,7 +735,7 @@ vendor/etc/camera/dualcam_bokeh_params_mono.json
 vendor/etc/camera/dualcam_preview_quan8_enc250.dlc
 vendor/etc/camera/ellv.bin
 vendor/etc/camera/ellv_params.xml
-vendor/etc/camera/gma_custom.xml
+vendor/etc/camera/gma_custom.xml:vendor/etc/camera/gma_custom.txt
 vendor/etc/camera/ldc/M12_CN_AI_Seg.bin
 vendor/etc/camera/ldc/M12_CN_LDC_REAR_FPC_TUNING.bin
 vendor/etc/camera/ldc/M12_CN_LDC_REAR_FPC_TUNING_AI.bin
