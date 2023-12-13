@@ -284,6 +284,9 @@ PRODUCT_COPY_FILES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
+    vibratorfeature-wrapper
+
+PRODUCT_PACKAGES += \
     android.hardware.vibrator-V1-ndk.vendor
 
 # Wifi
