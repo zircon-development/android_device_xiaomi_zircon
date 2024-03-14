@@ -31,8 +31,6 @@
 #define FOD_STATUS_ON 1
 
 #define TOUCH_DEV_PATH "/dev/xiaomi-touch"
-#define TOUCH_ID 0
-
 #define DISP_FEATURE_PATH "/dev/mi_display/disp_feature"
 
 #define FOD_PRESS_STATUS_PATH "/sys/class/touch/touch_dev/fod_press_status"
@@ -129,14 +127,14 @@ class ZirconUdfpsHander : public UdfpsHandler {
     android::base::unique_fd disp_fd_;
 
     void setFodStatus(int value) {
-        int buf[MAX_BUF_SIZE] = {TOUCH_ID, Touch_Fod_Enable, value};
+        int buf[MAX_BUF_SIZE] = {MI_DISP_PRIMARY, Touch_Fod_Enable, value};
         ioctl(touch_fd_.get(), TOUCH_IOC_SET_CUR_VALUE, &buf);
     }
 
     void setFingerDown(bool pressed) {
         mDevice->extCmd(mDevice, COMMAND_NIT, pressed ? PARAM_NIT_FOD : PARAM_NIT_NONE);
 
-        int buf[MAX_BUF_SIZE] = {TOUCH_ID, Touch_Fod_Enable, pressed ? 1 : 0};
+        int buf[MAX_BUF_SIZE] = {MI_DISP_PRIMARY, Touch_Fod_Enable, pressed ? 1 : 0};
         ioctl(touch_fd_.get(), TOUCH_IOC_SET_CUR_VALUE, &buf);
 
         // Request HBM
