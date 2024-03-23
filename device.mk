@@ -275,6 +275,10 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mtkpower@1.1.vendor \
     vendor.mediatek.hardware.mtkpower@1.2.vendor
 
+# Power-off Alarm
+PRODUCT_PACKAGES += \
+    PowerOffAlarm
+
 # Properties
 include $(LOCAL_PATH)/properties/vendor_logtag.mk
 
