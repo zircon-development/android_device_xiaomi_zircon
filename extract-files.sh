@@ -55,6 +55,9 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+        system_ext/lib64/libsource.so)
+            grep -q "libui_shim.so" "${2}" || "${PATCHELF}" --add-needed "libui_shim.so" "${2}"
+            ;;
         odm/lib*/hw/vendor.xiaomi.sensor.citsensorservice@2.0-impl.so)
             grep -q "libui_shim.so" "${2}" || "${PATCHELF}" --add-needed "libui_shim.so" "${2}"
             ;;
