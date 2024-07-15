@@ -7,7 +7,7 @@ odm/bin/headset_detect.sh
 odm/bin/hw/android.hardware.nfc@1.2-service-tms
 odm/bin/hw/mfp-daemon
 odm/bin/hw/vendor.nxp.hardware.nfc@2.0-service
-odm/bin/hw/vendor.xiaomi.hardware.vibratorfeature.service
+odm/bin/hw/vendor.xiaomi.hardware.vibratorfeature.service:vendor/bin/hw/vendor.xiaomi.hardware.vibratorfeature.service
 odm/bin/hw/vendor.xiaomi.hw.touchfeature@1.0-service
 odm/bin/hw/vendor.xiaomi.sensor.citsensorservice@2.0-service
 odm/bin/mlipayd_mitee@1.1
@@ -96,8 +96,7 @@ odm/etc/init/vendor.xiaomi.hardware.mlipay@1.1-miteeservice.rc
 odm/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-miteeservice.rc
 odm/etc/init/vendor.xiaomi.hardware.soterservice@1.0-service.rc
 odm/etc/init/vendor.xiaomi.hardware.tidaservice@1.2-miteeservice.rc
-odm/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc
-odm/etc/init/vendor.xiaomi.hardware.vibratorfeature@1.0-service.rc
+odm/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc:vendor/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc
 odm/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-miteeservice.rc
 odm/etc/init/vendor.xiaomi.hw.touchfeature@1.0-service.rc
 odm/etc/init/vendor.xiaomi.sensor.citsensorservice@2.0-service.rc
@@ -150,7 +149,7 @@ odm/etc/ultrasound.wav
 odm/etc/vintf/manifest/AHBF@2.1-service.xml
 odm/etc/vintf/manifest/fod.xml
 odm/etc/vintf/manifest/vendor.tms.hardware.nfc.xml
-odm/etc/vintf/manifest/vendor.xiaomi.hardware.vibratorfeature.service.xml
+odm/etc/vintf/manifest/vendor.xiaomi.hardware.vibratorfeature.service.xml:vendor/etc/vintf/manifest/vendor.xiaomi.hardware.vibratorfeature.service.xml
 odm/etc/vintf/manifest/vendor.xiaomi.hw.touchfeature@1.0-service.xml
 odm/etc/vintf/manifest/vendor.xiaomi.sensor.citsensorservice@2.0-service.xml
 odm/lib/7816-3-T1.so

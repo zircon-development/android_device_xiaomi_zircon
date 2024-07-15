@@ -55,6 +55,9 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+        vendor/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc)
+            sed -i "s/\/odm\/bin\//\/vendor\/bin\//g" "${2}"
+            ;;
     esac
 }
 
