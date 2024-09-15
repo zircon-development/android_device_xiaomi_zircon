@@ -7,6 +7,9 @@
 # Generic ramdisk allow list
 $(call inherit-product, $(SRC_TARGET_DIR)/product/generic_ramdisk.mk)
 
+# Partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
 # Shipping API Level
 PRODUCT_SHIPPING_API_LEVEL := 33
 
