@@ -169,17 +169,12 @@ odm/etc/thermal-video.conf
 odm/etc/thermal-videochat.conf
 odm/etc/top_spk.wav
 odm/etc/ultrasound.wav
-odm/etc/vintf/manifest.xml
 odm/etc/vintf/manifest/AHBF@2.1-service.xml
 odm/etc/vintf/manifest/fod.xml
 odm/etc/vintf/manifest/vendor.tms.hardware.nfc.xml
 odm/etc/vintf/manifest/vendor.xiaomi.hardware.vibratorfeature.service.xml
 odm/etc/vintf/manifest/vendor.xiaomi.hw.touchfeature@1.0-service.xml
 odm/etc/vintf/manifest/vendor.xiaomi.sensor.citsensorservice@2.0-service.xml
-odm/etc/vintf/manifest_dsds.xml
-odm/etc/vintf/manifest_qsqs.xml
-odm/etc/vintf/manifest_ss.xml
-odm/etc/vintf/manifest_tsts.xml
 odm/etc/zircon_3.2.6.prop
 odm/etc/zircon_3.29.6.prop
 odm/etc/zircon_3.9.6.prop
@@ -1332,8 +1327,6 @@ vendor/etc/ueventd.rc
 vendor/etc/usb_audio_accessory_only_policy_configuration.xml
 vendor/etc/usb_audio_policy_configuration.xml
 vendor/etc/vendor-apns-conf.xml
-vendor/etc/vintf/compatibility_matrix.xml
-vendor/etc/vintf/manifest.xml
 vendor/etc/vintf/manifest/android.hardware.boot@1.2.xml
 vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml
 vendor/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml
