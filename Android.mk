@@ -7,5 +7,6 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),zircon)
+include $(LOCAL_PATH)/vendor-symlinks.mk
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
