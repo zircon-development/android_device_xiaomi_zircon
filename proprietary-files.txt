@@ -518,9 +518,7 @@ vendor/bin/tdt
 vendor/bin/tee-supplicant
 vendor/bin/thermal_core
 vendor/bin/thermal_intf
-vendor/bin/toolbox
 vendor/bin/touch_boost
-vendor/bin/toybox_vendor
 vendor/bin/uart_launcher
 vendor/bin/uet
 vendor/bin/vendor.xiaomi.hardware.otrpagent@2.0-service
