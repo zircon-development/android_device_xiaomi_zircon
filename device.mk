@@ -59,3 +59,6 @@ PRODUCT_SHIPPING_API_LEVEL := 33
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# Vendor
+$(call inherit-product, vendor/xiaomi/zircon/zircon-vendor.mk)
