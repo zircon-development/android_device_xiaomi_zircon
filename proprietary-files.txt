@@ -38,7 +38,6 @@ odm/etc/RES1K.wav
 odm/etc/SEC_THN31_FW_VTP.txt.bin
 odm/etc/bottom_spk.wav
 odm/etc/bottom_spk_hp.wav
-odm/etc/build.prop
 odm/etc/camera/CFR_para_UW.bin
 odm/etc/camera/CameraImageSize.json
 odm/etc/camera/CameraPlatformInfo.json
@@ -175,9 +174,6 @@ odm/etc/vintf/manifest/vendor.tms.hardware.nfc.xml
 odm/etc/vintf/manifest/vendor.xiaomi.hardware.vibratorfeature.service.xml
 odm/etc/vintf/manifest/vendor.xiaomi.hw.touchfeature@1.0-service.xml
 odm/etc/vintf/manifest/vendor.xiaomi.sensor.citsensorservice@2.0-service.xml
-odm/etc/zircon_3.2.6.prop
-odm/etc/zircon_3.29.6.prop
-odm/etc/zircon_3.9.6.prop
 odm/lib/7816-3-T1.so
 odm/lib/hw/displayfeature.default.so
 odm/lib/hw/fingerprint.goodix_fod.so
@@ -530,7 +526,6 @@ vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
 vendor/bin/wpa_cli
 vendor/bin/xiaomi_ir_test
-vendor/build.prop
 vendor/etc/1-SN1X0_SPC.txt
 vendor/etc/AbnormalDisplayLog_dynamic.xml
 vendor/etc/AudioDump_dynamic.xml
