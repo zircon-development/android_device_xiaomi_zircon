@@ -394,7 +394,6 @@ vendor/bin/gsm0710muxd
 vendor/bin/hostapd_cli
 vendor/bin/hw/android.hardware.audio.service.mediatek
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek
-vendor/bin/hw/android.hardware.boot@1.2-service
 vendor/bin/hw/android.hardware.cas@1.2-service-lazy
 vendor/bin/hw/android.hardware.drm-service.clearkey
 vendor/bin/hw/android.hardware.drm-service.widevine
@@ -837,7 +836,6 @@ vendor/etc/init.insmod.mt6886.cfg
 vendor/etc/init/aee_aedv64_v2.rc
 vendor/etc/init/android.hardware.audio.service.mediatek.rc
 vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc
-vendor/etc/init/android.hardware.boot@1.2-service.rc
 vendor/etc/init/android.hardware.cas@1.2-service-lazy.rc
 vendor/etc/init/android.hardware.drm-service.clearkey.rc
 vendor/etc/init/android.hardware.drm-service.widevine.rc
@@ -1322,7 +1320,6 @@ vendor/etc/ueventd.rc
 vendor/etc/usb_audio_accessory_only_policy_configuration.xml
 vendor/etc/usb_audio_policy_configuration.xml
 vendor/etc/vendor-apns-conf.xml
-vendor/etc/vintf/manifest/android.hardware.boot@1.2.xml
 vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml
 vendor/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml
 vendor/etc/vintf/manifest/android.hardware.health-service.example.xml
@@ -2473,9 +2470,6 @@ vendor/lib/android.hardware.bluetooth.audio@2.0.so
 vendor/lib/android.hardware.bluetooth.audio@2.1.so
 vendor/lib/android.hardware.bluetooth@1.0.so
 vendor/lib/android.hardware.bluetooth@1.1.so
-vendor/lib/android.hardware.boot@1.0.so
-vendor/lib/android.hardware.boot@1.1.so
-vendor/lib/android.hardware.boot@1.2.so
 vendor/lib/android.hardware.cas.native@1.0.so
 vendor/lib/android.hardware.cas@1.0.so
 vendor/lib/android.hardware.cas@1.1.so
@@ -2522,7 +2516,6 @@ vendor/lib/hw/android.hardware.audio@7.1-impl-mediatek.so
 vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so
 vendor/lib/hw/android.hardware.bluetooth.audio@2.1-impl.so
 vendor/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so
-vendor/lib/hw/android.hardware.boot@1.0-impl-1.2-mtkimpl.so
 vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib/hw/android.hardware.renderscript@1.0-impl.so
 vendor/lib/hw/android.hardware.soundtrigger@2.3-impl.so
@@ -3112,9 +3105,6 @@ vendor/lib64/android.hardware.bluetooth.audio@2.0.so
 vendor/lib64/android.hardware.bluetooth.audio@2.1.so
 vendor/lib64/android.hardware.bluetooth@1.0.so
 vendor/lib64/android.hardware.bluetooth@1.1.so
-vendor/lib64/android.hardware.boot@1.0.so
-vendor/lib64/android.hardware.boot@1.1.so
-vendor/lib64/android.hardware.boot@1.2.so
 vendor/lib64/android.hardware.camera.common@1.0.so
 vendor/lib64/android.hardware.camera.device@1.0.so
 vendor/lib64/android.hardware.camera.device@3.2.so
@@ -3222,7 +3212,6 @@ vendor/lib64/hw/android.hardware.audio@7.1-impl-mediatek.so
 vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so
 vendor/lib64/hw/android.hardware.bluetooth.audio@2.1-impl.so
 vendor/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so
-vendor/lib64/hw/android.hardware.boot@1.0-impl-1.2-mtkimpl.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so
 vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so
