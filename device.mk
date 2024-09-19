@@ -53,6 +53,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
+# Overlay
+PRODUCT_PACKAGES += \
+    CarrierConfigOverlayZircon \
+    FrameworkOverlayZircon \
+    SystemUIOverlayZircon \
+    TelephonyOverlayZircon \
+    TetheringOverlayZircon \
+    WifiOverlayZircon
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 

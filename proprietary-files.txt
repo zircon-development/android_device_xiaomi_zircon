@@ -312,12 +312,6 @@ odm/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so
 odm/lib64/vendor.xiaomi.hardware.tidaservice@1.1.so
 odm/lib64/vendor.xiaomi.hardware.tidaservice@1.2.so
 odm/lib64/vendor.xiaomi.hardware.vsimapp@1.0.so
-vendor/app/GoogleNetworkStackResOverlay/GoogleNetworkStackResOverlay.apk
-vendor/app/GoogleTetheringResOverlay/GoogleTetheringResOverlay.apk
-vendor/app/InProcessTetheringResOverlay/InProcessTetheringResOverlay.apk
-vendor/app/NetworkStackInProcessResOverlay/NetworkStackInProcessResOverlay.apk
-vendor/app/NetworkStackResOverlay/NetworkStackResOverlay.apk
-vendor/app/TetheringResOverlay/TetheringResOverlay.apk
 vendor/bin/AgentTest
 vendor/bin/DFtool
 vendor/bin/MI_IC
@@ -4194,13 +4188,6 @@ vendor/mitee/ta/a734eed9-d6a1-4244-aa507c99719e7b7f.ta
 vendor/mitee/ta/dba51a17-0563-11e7-93b16fa7b0071a51.ta
 vendor/mitee/ta/e5140b33-76fa-4c63-ab18062caab2fb5c.ta
 vendor/mitee/ta/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta
-vendor/overlay/CellbroadcastUIResOverlay/CellbroadcastUIResOverlay.apk
-vendor/overlay/FrameworkResOverlay/FrameworkResOverlay.apk
-vendor/overlay/FrameworkResOverlayExt/FrameworkResOverlayExt.apk
-vendor/overlay/MtkSettingsResOverlay/MtkSettingsResOverlay.apk
-vendor/overlay/SettingsProviderResOverlay/SettingsProviderResOverlay.apk
-vendor/overlay/WifiResMainlineOverlay/WifiResMainlineOverlay.apk
-vendor/overlay/WifiResOverlay/WifiResOverlay.apk
 vendor/res/images/lcd_test_00.png
 vendor/res/images/lcd_test_01.png
 vendor/res/images/lcd_test_02.png
