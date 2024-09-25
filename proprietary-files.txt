@@ -486,8 +486,6 @@ vendor/bin/touch_boost
 vendor/bin/uart_launcher
 vendor/bin/uet
 vendor/bin/vendor.xiaomi.hardware.otrpagent@2.0-service
-vendor/bin/vndservice
-vendor/bin/vndservicemanager
 vendor/bin/volte_clientapi_ua
 vendor/bin/volte_rcs_ua
 vendor/bin/volte_rcs_ua64
@@ -946,7 +944,6 @@ vendor/etc/init/vendor.xiaomi.hardware.videoservice@1.0-service.rc
 vendor/etc/init/vendor.xiaomi.hidl.minet@1.0-service.rc
 vendor/etc/init/vendor.xiaomi.hidl.miwill@1.0-service.rc
 vendor/etc/init/vendor.xiaomi.sensor.communicate@1.0-service.rc
-vendor/etc/init/vndservicemanager.rc
 vendor/etc/init/volte_clientapi_ua.rc
 vendor/etc/init/wlan_assistant.rc
 vendor/etc/libnfc-nxp-pnscr.conf
