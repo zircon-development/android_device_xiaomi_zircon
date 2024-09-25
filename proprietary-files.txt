@@ -84,9 +84,6 @@ odm/etc/disp0/dsi_n16u_42_02_0a_dsc_vdo/miLut_7.txt
 odm/etc/disp0/dsi_n16u_42_02_0a_dsc_vdo/miLut_8.txt
 odm/etc/disp0/dsi_n16u_42_02_0a_dsc_vdo/miLut_9.txt
 odm/etc/dsi_n16u_42_02_0a_dsc_vdo_mi.xml
-odm/etc/fs_config_dirs
-odm/etc/fs_config_files
-odm/etc/group
 odm/etc/init.panel_info.sh
 odm/etc/init/android.hardware.nfc@1.2-service-tms.rc
 odm/etc/init/display.rc
@@ -111,7 +108,6 @@ odm/etc/libnfc-nxp_RF.conf
 odm/etc/libnfc-tms.conf
 odm/etc/libnfc-tms_RF_EC2.conf
 odm/etc/n16u_42_02_0a_dsc_vdo_pq.xml
-odm/etc/passwd
 odm/etc/permissions/android.hardware.nfc.ese.xml
 odm/etc/permissions/android.hardware.nfc.hce.xml
 odm/etc/permissions/android.hardware.nfc.hcef.xml
@@ -314,11 +310,8 @@ vendor/bin/atcid
 vendor/bin/ated
 vendor/bin/audiocmdservice_atci
 vendor/bin/autobt
-vendor/bin/awk
 vendor/bin/batterysecret
 vendor/bin/bip_ap
-vendor/bin/boringssl_self_test32
-vendor/bin/boringssl_self_test64
 vendor/bin/bt_dump
 vendor/bin/cameratest
 vendor/bin/ccci_fsd
@@ -357,12 +350,10 @@ vendor/bin/dc_cal
 vendor/bin/dconfig
 vendor/bin/dexecutor
 vendor/bin/displayfeature
-vendor/bin/dmabuf_dump
 vendor/bin/dmc_core
 vendor/bin/doeapp-memtester
 vendor/bin/doeapp-sat
 vendor/bin/dtc_vendor
-vendor/bin/dumpsys
 vendor/bin/eara_io_service
 vendor/bin/em_hidl
 vendor/bin/factory
@@ -450,7 +441,6 @@ vendor/bin/iwlist
 vendor/bin/iwpriv
 vendor/bin/lbs_hidl_service
 vendor/bin/loghidlvendorservice
-vendor/bin/logwrapper
 vendor/bin/mcfota_service
 vendor/bin/md_monitor
 vendor/bin/md_monitor_ctrl
@@ -484,7 +474,6 @@ vendor/bin/rcs_volte_stack
 vendor/bin/rcs_volte_stack64
 vendor/bin/rt5512_calibration
 vendor/bin/rttv_v2
-vendor/bin/sh
 vendor/bin/slad
 vendor/bin/smartpa_nvtest
 vendor/bin/stp_dump3
@@ -786,8 +775,6 @@ vendor/etc/ecc_list_preference.xml
 vendor/etc/elliptic_sensor.xml
 vendor/etc/excluded-input-devices.xml
 vendor/etc/factory.ini
-vendor/etc/fs_config_dirs
-vendor/etc/fs_config_files
 vendor/etc/fstab.emmc
 vendor/etc/fstab.enableswap
 vendor/etc/fstab.mt6886
@@ -816,7 +803,6 @@ vendor/etc/gralloc/dpu.xml
 vendor/etc/gralloc/dpu_aeu.xml
 vendor/etc/gralloc/gpu.xml
 vendor/etc/gralloc/vpu.xml
-vendor/etc/group
 vendor/etc/init.insmod.mt6886.cfg
 vendor/etc/init/aee_aedv64_v2.rc
 vendor/etc/init/android.hardware.audio.service.mediatek.rc
@@ -849,7 +835,6 @@ vendor/etc/init/android.hardware.wifi@1.0-service-lazy.rc
 vendor/etc/init/atcid.rc
 vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/init/bootperf.rc
-vendor/etc/init/boringssl_self_test.rc
 vendor/etc/init/camerahalserver.rc
 vendor/etc/init/chipinfo_init.rc
 vendor/etc/init/ddr_training.rc
@@ -1017,7 +1002,6 @@ vendor/etc/misound_asc_model.tflite
 vendor/etc/misound_res.bin
 vendor/etc/misound_res_headphone.bin
 vendor/etc/misound_res_spk.bin
-vendor/etc/mkshrc
 vendor/etc/mpe.conf
 vendor/etc/mtk_platform_codecs_config.xml
 vendor/etc/mtk_vext_info
@@ -1026,7 +1010,6 @@ vendor/etc/nn/ot/neuron_detection.mdla3_5
 vendor/etc/nn/ot/neuron_tracking.mdla3_5
 vendor/etc/nnapi_powerhal.json
 vendor/etc/partition_permission.sh
-vendor/etc/passwd
 vendor/etc/permissions/android.hardware.audio.low_latency.prebuilt.xml
 vendor/etc/permissions/android.hardware.bluetooth.prebuilt.xml
 vendor/etc/permissions/android.hardware.bluetooth_le.prebuilt.xml
