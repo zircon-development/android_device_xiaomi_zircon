@@ -370,7 +370,6 @@ vendor/bin/gsm0710muxd
 vendor/bin/hostapd_cli
 vendor/bin/hw/android.hardware.audio.service.mediatek
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek
-vendor/bin/hw/android.hardware.cas@1.2-service-lazy
 vendor/bin/hw/android.hardware.drm-service.clearkey
 vendor/bin/hw/android.hardware.drm-service.widevine
 vendor/bin/hw/android.hardware.dumpstate-service.xiaomi
@@ -805,7 +804,6 @@ vendor/etc/init.insmod.mt6886.cfg
 vendor/etc/init/aee_aedv64_v2.rc
 vendor/etc/init/android.hardware.audio.service.mediatek.rc
 vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc
-vendor/etc/init/android.hardware.cas@1.2-service-lazy.rc
 vendor/etc/init/android.hardware.drm-service.clearkey.rc
 vendor/etc/init/android.hardware.drm-service.widevine.rc
 vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
@@ -1274,7 +1272,6 @@ vendor/etc/ueventd.rc
 vendor/etc/usb_audio_accessory_only_policy_configuration.xml
 vendor/etc/usb_audio_policy_configuration.xml
 vendor/etc/vendor-apns-conf.xml
-vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml
 vendor/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml
 vendor/etc/vintf/manifest/android.hardware.health-service.example.xml
 vendor/etc/vintf/manifest/android.hardware.identity@4.0-service.mitee.xml
@@ -2424,10 +2421,6 @@ vendor/lib/android.hardware.bluetooth.audio@2.0.so
 vendor/lib/android.hardware.bluetooth.audio@2.1.so
 vendor/lib/android.hardware.bluetooth@1.0.so
 vendor/lib/android.hardware.bluetooth@1.1.so
-vendor/lib/android.hardware.cas.native@1.0.so
-vendor/lib/android.hardware.cas@1.0.so
-vendor/lib/android.hardware.cas@1.1.so
-vendor/lib/android.hardware.cas@1.2.so
 vendor/lib/android.hardware.gatekeeper@1.0.so
 vendor/lib/android.hardware.media.c2@1.0.so
 vendor/lib/android.hardware.media.c2@1.1.so
@@ -2827,7 +2820,6 @@ vendor/lib/libwifinvramdata.so
 vendor/lib/libwpa_client.so
 vendor/lib/libwvaidl.so
 vendor/lib/libxlog.so
-vendor/lib/mediacas/libclearkeycasplugin.so
 vendor/lib/mediadrm/libdrmclearkeyplugin.so
 vendor/lib/mediadrm/libmockdrmcryptoplugin.so
 vendor/lib/mt6886/arm.graphics-V2-ndk.so
@@ -3626,7 +3618,6 @@ vendor/lib64/libwpa_client.so
 vendor/lib64/libwpfa.so
 vendor/lib64/libwvaidl.so
 vendor/lib64/libxlog.so
-vendor/lib64/mediacas/libclearkeycasplugin.so
 vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 vendor/lib64/mediadrm/libmockdrmcryptoplugin.so
 vendor/lib64/mt6886/arm.graphics-V2-ndk.so
