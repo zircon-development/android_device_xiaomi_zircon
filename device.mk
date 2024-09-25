@@ -79,5 +79,10 @@ PRODUCT_SHIPPING_API_LEVEL := 33
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Vendor service manager
+PRODUCT_PACKAGES += \
+    vndservice \
+    vndservicemanager
+
 # Vendor
 $(call inherit-product, vendor/xiaomi/zircon/zircon-vendor.mk)
