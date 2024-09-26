@@ -416,14 +416,6 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.xiaomi.cit.wifi</name>
-        <version>1.0</version>
-        <interface>
-            <name>IWifiService</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
         <name>vendor.xiaomi.hardware.bgservice</name>
         <version>1.0</version>
         <interface>
@@ -432,26 +424,10 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.xiaomi.hardware.cld</name>
-        <version>1.0</version>
-        <interface>
-            <name>ICld</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
         <name>vendor.xiaomi.hardware.displayfeature</name>
         <version>1.0</version>
         <interface>
             <name>IDisplayFeature</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.xiaomi.hardware.dtool</name>
-        <version>1.0</version>
-        <interface>
-            <name>IDtool</name>
             <instance>default</instance>
         </interface>
     </hal>
@@ -472,41 +448,6 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.xiaomi.hardware.mfidoca</name>
-        <version>1.0</version>
-        <interface>
-            <name>IFidoService</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.xiaomi.hardware.micharge</name>
-        <version>1.0</version>
-        <interface>
-            <name>IMiCharge</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.xiaomi.hardware.mimd</name>
-        <version>1.0</version>
-        <interface>
-            <name>IMimd</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.xiaomi.hardware.misys</name>
-        <version>1.0</version>
-        <version>2.0</version>
-        <version>3.0</version>
-        <version>4.0</version>
-        <interface>
-            <name>IMiSys</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
         <name>vendor.xiaomi.hardware.mlipay</name>
         <version>1.0-1</version>
         <interface>
@@ -515,66 +456,10 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.xiaomi.hardware.mtdservice</name>
-        <version>1.0-3</version>
-        <interface>
-            <name>IMTService</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.xiaomi.hardware.otrpagent</name>
-        <version>2.0</version>
-        <interface>
-            <name>IOTrPAgent</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
         <name>vendor.xiaomi.hardware.soterservice</name>
         <version>1.0</version>
         <interface>
             <name>ISoter</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.xiaomi.hardware.tidaservice</name>
-        <version>1.0-2</version>
-        <interface>
-            <name>ITidaService</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.xiaomi.hardware.videoservice</name>
-        <version>1.0</version>
-        <interface>
-            <name>IVideoService</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.xiaomi.hardware.vsimapp</name>
-        <version>1.0</version>
-        <interface>
-            <name>IVSIMService</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.xiaomi.hidl.minet</name>
-        <version>1.0</version>
-        <interface>
-            <name>IMiNetService</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.xiaomi.hidl.miwill</name>
-        <version>1.0</version>
-        <interface>
-            <name>IMiwillService</name>
             <instance>default</instance>
         </interface>
     </hal>
@@ -592,14 +477,6 @@
         <version>2.0</version>
         <interface>
             <name>ICitSensorService</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.xiaomi.sensor.communicate</name>
-        <version>1.0</version>
-        <interface>
-            <name>ISensorCommunicate</name>
             <instance>default</instance>
         </interface>
     </hal>
