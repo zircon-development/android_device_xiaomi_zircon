@@ -359,7 +359,6 @@ vendor/bin/fuelgauged_nvram
 vendor/bin/gbe
 vendor/bin/gps_dump
 vendor/bin/gsm0710muxd
-vendor/bin/hostapd_cli
 vendor/bin/hw/android.hardware.audio.service.mediatek
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek
 vendor/bin/hw/android.hardware.drm-service.widevine
@@ -378,8 +377,6 @@ vendor/bin/hw/android.hardware.security.keymint@2.0-service.mitee
 vendor/bin/hw/android.hardware.thermal@2.0-service.mtk
 vendor/bin/hw/android.hardware.usb-aidl-service.mediatekv1.0
 vendor/bin/hw/android.hardware.usb.gadget-service.mediatekv1.1
-vendor/bin/hw/android.hardware.wifi@1.0-service-lazy
-vendor/bin/hw/hostapd
 vendor/bin/hw/mt6886/android.hardware.graphics.allocator@4.0-service-mediatek.mt6886
 vendor/bin/hw/mt6886/camerahalserver
 vendor/bin/hw/mtkfusionrild
@@ -397,7 +394,6 @@ vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
 vendor/bin/hw/vendor.mediatek.hardware.nwk_opt@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.pq_aidl-service
 vendor/bin/hw/vendor.qti.sla.service@1.0-service
-vendor/bin/hw/vendor.xiaomi.cit.wifi@1.0-service
 vendor/bin/hw/vendor.xiaomi.hardware.cld@1.0-service
 vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service
 vendor/bin/hw/vendor.xiaomi.hardware.dtool@1.0-service
@@ -413,7 +409,6 @@ vendor/bin/hw/vendor.xiaomi.hidl.minet@1.0-service
 vendor/bin/hw/vendor.xiaomi.hidl.miwill@1.0-service
 vendor/bin/hw/vendor.xiaomi.sensor.communicate@1.0-service
 vendor/bin/hw/vtservice_hidl
-vendor/bin/hw/wpa_supplicant
 vendor/bin/init.insmod.sh
 vendor/bin/iperf
 vendor/bin/ipsec_mon
@@ -472,12 +467,9 @@ vendor/bin/volte_clientapi_ua
 vendor/bin/volte_rcs_ua
 vendor/bin/volte_rcs_ua64
 vendor/bin/vpud
-vendor/bin/wifi_dump
-vendor/bin/wifitest
 vendor/bin/wlan_assistant
 vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
-vendor/bin/wpa_cli
 vendor/bin/xiaomi_ir_test
 vendor/etc/1-SN1X0_SPC.txt
 vendor/etc/AbnormalDisplayLog_dynamic.xml
@@ -799,8 +791,6 @@ vendor/etc/init/android.hardware.security.keymint.mitee@2.0-service.rc
 vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc
 vendor/etc/init/android.hardware.usb-aidl-service.mediatek.rc
 vendor/etc/init/android.hardware.usb.gadget-service.mediatek.rc
-vendor/etc/init/android.hardware.wifi.supplicant-service.rc
-vendor/etc/init/android.hardware.wifi@1.0-service-lazy.rc
 vendor/etc/init/atcid.rc
 vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/init/bootperf.rc
@@ -817,7 +807,6 @@ vendor/etc/init/fuelgauged_init.rc
 vendor/etc/init/fuelgauged_nvram_init.rc
 vendor/etc/init/gbe.rc
 vendor/etc/init/gsm0710muxd.rc
-vendor/etc/init/hostapd.android.rc
 vendor/etc/init/hw/factory_init.connectivity.common.rc
 vendor/etc/init/hw/factory_init.connectivity.rc
 vendor/etc/init/hw/factory_init.project.rc
@@ -899,7 +888,6 @@ vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc
 vendor/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.pq_aidl-service.rc
 vendor/etc/init/vendor.qti.sla.service@1.0-service.rc
-vendor/etc/init/vendor.xiaomi.cit.wifi@1.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.cld@1.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.dtool@1.0-service.rc
@@ -1208,9 +1196,6 @@ vendor/etc/vintf/manifest/android.hardware.security.secureclock-service.mitee.xm
 vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.mitee.xml
 vendor/etc/vintf/manifest/android.hardware.usb-aidl-service.mediatek.xml
 vendor/etc/vintf/manifest/android.hardware.usb.gadget-service.mediatek.xml
-vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml
-vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml
-vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml
 vendor/etc/vintf/manifest/dumpstate-xiaomi.xml
 vendor/etc/vintf/manifest/em_hal_service.xml
 vendor/etc/vintf/manifest/gnss-default.xml
@@ -1233,7 +1218,6 @@ vendor/etc/vintf/manifest/power-mediatek.xml
 vendor/etc/vintf/manifest/vendor.dolby.hardware.dms.xml
 vendor/etc/vintf/manifest/vendor.dolby.media.c2@1.0-service.xml
 vendor/etc/vintf/manifest/vendor.mediatek.hardware.neuropilot.agent@1.0-service.xml
-vendor/etc/vintf/manifest/vendor.xiaomi.cit.wifi@1.0_manifest.xml
 vendor/etc/vintf/manifest/vendor.xiaomi.hardware.bgservice@1.0-service.xml
 vendor/etc/vintf/manifest/vendor.xiaomi.hardware.displayfeature@1.0-service.xml
 vendor/etc/vintf/manifest/vendor.xiaomi.hardware.micharge@1.0.xml
@@ -2032,12 +2016,7 @@ vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/nl.use_pcm
 vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/nl.use_xor
 vendor/etc/voicecommand/training/ubmfile/keyword08/keyphrase.xml
 vendor/etc/wfd_source_capability.csv
-vendor/etc/wifi/nvram/wfnv_desc_data_soc70.bin
-vendor/etc/wifi/nvram/wfnv_desc_map_soc70.bin
-vendor/etc/wifi/p2p_supplicant_overlay.conf
 vendor/etc/wifi/passpointProfile.conf
-vendor/etc/wifi/wpa_supplicant.conf
-vendor/etc/wifi/wpa_supplicant_overlay.conf
 vendor/etc/xgf.cfg
 vendor/firmware/0_click_P_RTP.bin
 vendor/firmware/101_offlineCountdown_RTP.bin
@@ -2316,7 +2295,6 @@ vendor/firmware/soc_fm_v1_coeff.bin
 vendor/firmware/soc_fm_v1_patch.bin
 vendor/firmware/txpowerctrl.cfg
 vendor/firmware/wifi.cfg
-vendor/lib/android.system.wifi.keystore@1.0.so
 vendor/lib/audioclient-types-aidl-cpp.so
 vendor/lib/egl/egl.cfg
 vendor/lib/egl/libGLES_meow.so
@@ -2509,7 +2487,6 @@ vendor/lib/libipsec_ims_shr.so
 vendor/lib/libispcameraca.so
 vendor/lib/libjpeg-alpha-oal_vendor.so
 vendor/lib/libjpeg-alpha_vendor.so
-vendor/lib/libkeystore-wifi-hidl.so
 vendor/lib/libladder.so
 vendor/lib/liblogwrap_vendor.so
 vendor/lib/libmediautils_vendor.so
@@ -2643,8 +2620,6 @@ vendor/lib/libvpu5.so
 vendor/lib/libvpud_vcodec.so
 vendor/lib/libvpx.so
 vendor/lib/libwapi.so
-vendor/lib/libwifinvramdata.so
-vendor/lib/libwpa_client.so
 vendor/lib/libwvaidl.so
 vendor/lib/libxlog.so
 vendor/lib/mt6886/arm.graphics-V2-ndk.so
@@ -2839,7 +2814,6 @@ vendor/lib64/android.frameworks.displayservice@1.0.so
 vendor/lib64/android.frameworks.sensorservice@1.0.so
 vendor/lib64/android.hardware.power-service-mediatek.so
 vendor/lib64/android.system.keystore2-V1-ndk.so
-vendor/lib64/android.system.wifi.keystore@1.0.so
 vendor/lib64/audioclient-types-aidl-cpp.so
 vendor/lib64/camera/plugins/com.xiaomi.plugin.arcsoftsr.so
 vendor/lib64/camera/plugins/com.xiaomi.plugin.capbokeh.so
@@ -3138,8 +3112,6 @@ vendor/lib64/libkeymaster_messages.so
 vendor/lib64/libkeymaster_portable.so
 vendor/lib64/libkeymint.so
 vendor/lib64/libkeymint_support.so
-vendor/lib64/libkeystore-engine-wifi-hidl.so
-vendor/lib64/libkeystore-wifi-hidl.so
 vendor/lib64/libksensor.so
 vendor/lib64/libladder.so
 vendor/lib64/liblogwrap_vendor.so
@@ -3302,12 +3274,7 @@ vendor/lib64/libvpu5.so
 vendor/lib64/libwa_opticalzoomfactor.so
 vendor/lib64/libwa_sat.so
 vendor/lib64/libwapi.so
-vendor/lib64/libwifi-hal.so
-vendor/lib64/libwifical.so
-vendor/lib64/libwifinvram.so
-vendor/lib64/libwifinvramdata.so
-vendor/lib64/libwifitest.so
-vendor/lib64/libwpa_client.so
+vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so
 vendor/lib64/libwpfa.so
 vendor/lib64/libwvaidl.so
 vendor/lib64/libxlog.so
@@ -3782,7 +3749,6 @@ vendor/lib64/vendor.qti.sla.service@1.0-impl.so
 vendor/lib64/vendor.qti.sla.service@1.0.so
 vendor/lib64/vendor.tms.nfc-V1-ndk.so
 vendor/lib64/vendor.tms.tmsnfc@1.0.so
-vendor/lib64/vendor.xiaomi.cit.wifi@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.bgservice@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.blackbox-V1-ndk.so
 vendor/lib64/vendor.xiaomi.hardware.cld@1.0.so
