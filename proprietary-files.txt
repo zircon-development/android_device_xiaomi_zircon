@@ -1563,7 +1563,7 @@ vendor/etc/init/init.gps_scp.rc
 vendor/etc/init/mtk_agpsd_p.rc
 vendor/etc/init/mtkgnss-batching.rc
 vendor/etc/slp_conf
-vendor/etc/vintf/manifest/gnss-default.xml
+vendor/etc/vintf/manifest/gnss-default.xml:vendor/etc/vintf/manifest/gnss-mediatek.xml
 vendor/etc/vintf/manifest/gnss@2.1-service-mediatek.xml
 vendor/etc/vintf/manifest/mtkgnss-batching.xml
 vendor/lib/hw/gps.default.so
