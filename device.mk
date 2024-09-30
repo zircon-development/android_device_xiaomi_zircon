@@ -51,7 +51,7 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.audio.common@6.0-util \
+    android.hardware.audio.common@6.0-util.vendor \
     android.hardware.audio.effect@7.0-impl \
     android.hardware.audio@6.0.vendor \
     android.hardware.audio@7.1-impl \
@@ -153,9 +153,6 @@ PRODUCT_PACKAGES += \
     android.hidl.memory.block@1.0.vendor \
     libhidltransport.vendor \
     libhwbinder.vendor
-
-PRODUCT_PACKAGES += \
-    libpcap.vendor
 
 # Health
 PRODUCT_PACKAGES += \
