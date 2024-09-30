@@ -76,9 +76,6 @@ ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/bin/crossbuild/DataSet/SQL
 $(TARGET_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/ISP_info.db: $(LOCAL_INSTALLED_MODULE)
 $(call symlink-file,,mt6886/ISP_info.db,$(TARGET_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/ISP_info.db)
 ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/ISP_info.db
-$(TARGET_OUT_VENDOR)/bin/dumpfaultd.mt6886: $(LOCAL_INSTALLED_MODULE)
-$(call symlink-file,,mt6886/dumpfaultd.mt6886,$(TARGET_OUT_VENDOR)/bin/dumpfaultd.mt6886)
-ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/bin/dumpfaultd.mt6886
 $(TARGET_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek: $(LOCAL_INSTALLED_MODULE)
 $(call symlink-file,,/vendor/bin/hw/mt6886/android.hardware.graphics.allocator@4.0-service-mediatek.mt6886,$(TARGET_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek)
 ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
@@ -91,9 +88,6 @@ ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/bin/hw/arm.mali.platform-s
 $(TARGET_OUT_VENDOR)/bin/hw/camerahalserver: $(LOCAL_INSTALLED_MODULE)
 $(call symlink-file,,mt6886/camerahalserver,$(TARGET_OUT_VENDOR)/bin/hw/camerahalserver)
 ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/bin/hw/camerahalserver
-$(TARGET_OUT_VENDOR)/bin/jpegtool: $(LOCAL_INSTALLED_MODULE)
-$(call symlink-file,,mt6886/jpegtool,$(TARGET_OUT_VENDOR)/bin/jpegtool)
-ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/bin/jpegtool
 $(TARGET_OUT_VENDOR)/etc/mdota: $(LOCAL_INSTALLED_MODULE)
 $(call symlink-file,,/mnt/vendor/mdota,$(TARGET_OUT_VENDOR)/etc/mdota)
 ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/etc/mdota
@@ -229,12 +223,6 @@ ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib/libaiawb_sun_model.so
 $(TARGET_OUT_VENDOR)/lib/libaiselector.so: $(LOCAL_INSTALLED_MODULE)
 $(call symlink-file,,mt6886/libaiselector.so,$(TARGET_OUT_VENDOR)/lib/libaiselector.so)
 ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib/libaiselector.so
-$(TARGET_OUT_VENDOR)/lib/libarm_egl_properties_sysprop.so: $(LOCAL_INSTALLED_MODULE)
-$(call symlink-file,,mt6886/libarm_egl_properties_sysprop.so,$(TARGET_OUT_VENDOR)/lib/libarm_egl_properties_sysprop.so)
-ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib/libarm_egl_properties_sysprop.so
-$(TARGET_OUT_VENDOR)/lib/libarm_gralloc_properties_sysprop.so: $(LOCAL_INSTALLED_MODULE)
-$(call symlink-file,,mt6886/libarm_gralloc_properties_sysprop.so,$(TARGET_OUT_VENDOR)/lib/libarm_gralloc_properties_sysprop.so)
-ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib/libarm_gralloc_properties_sysprop.so
 $(TARGET_OUT_VENDOR)/lib/libcam.hal3a.log.so: $(LOCAL_INSTALLED_MODULE)
 $(call symlink-file,,mt6886/libcam.hal3a.log.so,$(TARGET_OUT_VENDOR)/lib/libcam.hal3a.log.so)
 ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib/libcam.hal3a.log.so
@@ -283,9 +271,6 @@ ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib/libccd.so
 $(TARGET_OUT_VENDOR)/lib/libdpframework.so: $(LOCAL_INSTALLED_MODULE)
 $(call symlink-file,,mt6886/libdpframework.so,$(TARGET_OUT_VENDOR)/lib/libdpframework.so)
 ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib/libdpframework.so
-$(TARGET_OUT_VENDOR)/lib/libgpudataproducer.so: $(LOCAL_INSTALLED_MODULE)
-$(call symlink-file,,mt6886/libgpudataproducer.so,$(TARGET_OUT_VENDOR)/lib/libgpudataproducer.so)
-ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib/libgpudataproducer.so
 $(TARGET_OUT_VENDOR)/lib/libimgsys_adl.so: $(LOCAL_INSTALLED_MODULE)
 $(call symlink-file,,mt6886/libimgsys_adl.so,$(TARGET_OUT_VENDOR)/lib/libimgsys_adl.so)
 ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib/libimgsys_adl.so
@@ -331,9 +316,6 @@ ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib/libimgsys_utils.so
 $(TARGET_OUT_VENDOR)/lib/libimgsys_wpe.so: $(LOCAL_INSTALLED_MODULE)
 $(call symlink-file,,mt6886/libimgsys_wpe.so,$(TARGET_OUT_VENDOR)/lib/libimgsys_wpe.so)
 ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib/libimgsys_wpe.so
-$(TARGET_OUT_VENDOR)/lib/liblibarm_mali_config_sysprops.so: $(LOCAL_INSTALLED_MODULE)
-$(call symlink-file,,mt6886/liblibarm_mali_config_sysprops.so,$(TARGET_OUT_VENDOR)/lib/liblibarm_mali_config_sysprops.so)
-ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib/liblibarm_mali_config_sysprops.so
 $(TARGET_OUT_VENDOR)/lib/libmmlpqImpl.so: $(LOCAL_INSTALLED_MODULE)
 $(call symlink-file,,mt6886/libmmlpqImpl.so,$(TARGET_OUT_VENDOR)/lib/libmmlpqImpl.so)
 ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib/libmmlpqImpl.so
@@ -631,9 +613,6 @@ ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib64/libaal_cust_func.so
 $(TARGET_OUT_VENDOR)/lib64/libaalservice.so: $(LOCAL_INSTALLED_MODULE)
 $(call symlink-file,,mt6886/libaalservice.so,$(TARGET_OUT_VENDOR)/lib64/libaalservice.so)
 ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib64/libaalservice.so
-$(TARGET_OUT_VENDOR)/lib64/libacdk.so: $(LOCAL_INSTALLED_MODULE)
-$(call symlink-file,,mt6886/libacdk.so,$(TARGET_OUT_VENDOR)/lib64/libacdk.so)
-ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib64/libacdk.so
 $(TARGET_OUT_VENDOR)/lib64/libaiawb_fs.so: $(LOCAL_INSTALLED_MODULE)
 $(call symlink-file,,mt6886/libaiawb_fs.so,$(TARGET_OUT_VENDOR)/lib64/libaiawb_fs.so)
 ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib64/libaiawb_fs.so
@@ -694,12 +673,6 @@ ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib64/libalgo.aosp.log.so
 $(TARGET_OUT_VENDOR)/lib64/libapudcutils.so: $(LOCAL_INSTALLED_MODULE)
 $(call symlink-file,,mt6886/libapudcutils.so,$(TARGET_OUT_VENDOR)/lib64/libapudcutils.so)
 ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib64/libapudcutils.so
-$(TARGET_OUT_VENDOR)/lib64/libarm_egl_properties_sysprop.so: $(LOCAL_INSTALLED_MODULE)
-$(call symlink-file,,mt6886/libarm_egl_properties_sysprop.so,$(TARGET_OUT_VENDOR)/lib64/libarm_egl_properties_sysprop.so)
-ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib64/libarm_egl_properties_sysprop.so
-$(TARGET_OUT_VENDOR)/lib64/libarm_gralloc_properties_sysprop.so: $(LOCAL_INSTALLED_MODULE)
-$(call symlink-file,,mt6886/libarm_gralloc_properties_sysprop.so,$(TARGET_OUT_VENDOR)/lib64/libarm_gralloc_properties_sysprop.so)
-ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib64/libarm_gralloc_properties_sysprop.so
 $(TARGET_OUT_VENDOR)/lib64/libcam.3a_isp.utils.so: $(LOCAL_INSTALLED_MODULE)
 $(call symlink-file,,mt6886/libcam.3a_isp.utils.so,$(TARGET_OUT_VENDOR)/lib64/libcam.3a_isp.utils.so)
 ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib64/libcam.3a_isp.utils.so
@@ -1033,9 +1006,6 @@ ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib64/libfeatureiodrv_mem.
 $(TARGET_OUT_VENDOR)/lib64/libfeaturepolicy_dbhandler.so: $(LOCAL_INSTALLED_MODULE)
 $(call symlink-file,,mt6886/libfeaturepolicy_dbhandler.so,$(TARGET_OUT_VENDOR)/lib64/libfeaturepolicy_dbhandler.so)
 ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib64/libfeaturepolicy_dbhandler.so
-$(TARGET_OUT_VENDOR)/lib64/libgpudataproducer.so: $(LOCAL_INSTALLED_MODULE)
-$(call symlink-file,,mt6886/libgpudataproducer.so,$(TARGET_OUT_VENDOR)/lib64/libgpudataproducer.so)
-ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib64/libgpudataproducer.so
 $(TARGET_OUT_VENDOR)/lib64/libimgstream-custom.so: $(LOCAL_INSTALLED_MODULE)
 $(call symlink-file,,mt6886/libimgstream-custom.so,$(TARGET_OUT_VENDOR)/lib64/libimgstream-custom.so)
 ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib64/libimgstream-custom.so
@@ -1102,15 +1072,9 @@ ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib64/libimgsys_wpe.so
 $(TARGET_OUT_VENDOR)/lib64/libispfeature_mtkcam.v4l2.so: $(LOCAL_INSTALLED_MODULE)
 $(call symlink-file,,mt6886/libispfeature_mtkcam.v4l2.so,$(TARGET_OUT_VENDOR)/lib64/libispfeature_mtkcam.v4l2.so)
 ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib64/libispfeature_mtkcam.v4l2.so
-$(TARGET_OUT_VENDOR)/lib64/liblibarm_mali_config_sysprops.so: $(LOCAL_INSTALLED_MODULE)
-$(call symlink-file,,mt6886/liblibarm_mali_config_sysprops.so,$(TARGET_OUT_VENDOR)/lib64/liblibarm_mali_config_sysprops.so)
-ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib64/liblibarm_mali_config_sysprops.so
 $(TARGET_OUT_VENDOR)/lib64/liblpnr.so: $(LOCAL_INSTALLED_MODULE)
 $(call symlink-file,,mt6886/liblpnr.so,$(TARGET_OUT_VENDOR)/lib64/liblpnr.so)
 ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib64/liblpnr.so
-$(TARGET_OUT_VENDOR)/lib64/libmdla_ut.so: $(LOCAL_INSTALLED_MODULE)
-$(call symlink-file,,mt6886/libmdla_ut.so,$(TARGET_OUT_VENDOR)/lib64/libmdla_ut.so)
-ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib64/libmdla_ut.so
 $(TARGET_OUT_VENDOR)/lib64/libmfllcore.so: $(LOCAL_INSTALLED_MODULE)
 $(call symlink-file,,mt6886/libmfllcore.so,$(TARGET_OUT_VENDOR)/lib64/libmfllcore.so)
 ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib64/libmfllcore.so
@@ -1498,9 +1462,6 @@ ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib64/libpqparamparser.so
 $(TARGET_OUT_VENDOR)/lib64/libstereoinfoaccessor_vsdof.so: $(LOCAL_INSTALLED_MODULE)
 $(call symlink-file,,mt6886/libstereoinfoaccessor_vsdof.so,$(TARGET_OUT_VENDOR)/lib64/libstereoinfoaccessor_vsdof.so)
 ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib64/libstereoinfoaccessor_vsdof.so
-$(TARGET_OUT_VENDOR)/lib64/libvainr_model.so: $(LOCAL_INSTALLED_MODULE)
-$(call symlink-file,,mt6886/libvainr_model.so,$(TARGET_OUT_VENDOR)/lib64/libvainr_model.so)
-ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib64/libvainr_model.so
 $(TARGET_OUT_VENDOR)/lib64/mtk000_mipi_raw_IdxMgr.so: $(LOCAL_INSTALLED_MODULE)
 $(call symlink-file,,mt6886/mtk000_mipi_raw_IdxMgr.so,$(TARGET_OUT_VENDOR)/lib64/mtk000_mipi_raw_IdxMgr.so)
 ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib64/mtk000_mipi_raw_IdxMgr.so
