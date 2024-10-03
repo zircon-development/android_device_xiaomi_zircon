@@ -81,26 +81,18 @@ BOARD_MKBOOTIMG_INIT_ARGS += --header_version $(BOARD_INIT_BOOT_HEADER_VERSION)
 
 TARGET_KERNEL_SOURCE := kernel/xiaomi/mt6886
 
-TARGET_KERNEL_CONFIG := \
-    gki_defconfig \
-    mgk_64_k515_defconfig \
-    vendor/ok_google_global.config \
-    vendor/zircon.config
-
-TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_CLANG_VERSION := r416183b
-TARGET_KERNEL_CLANG_PATH := $(abspath .)/prebuilts/clang/kernel/$(HOST_PREBUILT_TAG)/clang-$(TARGET_KERNEL_CLANG_VERSION)
-BOARD_KERNEL_IMAGE_NAME := Image.gz
+TARGET_KERNEL_CONFIG := gki_defconfig
 
 BOARD_KERNEL_CMDLINE := \
     bootopt=64S3,32N2,64N2 \
     androidboot.selinux=permissive
 
 # Kernel (prebuilt)
+TARGET_FORCE_PREBUILT_KERNEL := true
 PREBUILT_PATH := $(DEVICE_PATH)-prebuilt
 BOARD_PREBUILT_DTBIMAGE_DIR := $(PREBUILT_PATH)/images/dtbs/
 BOARD_PREBUILT_DTBOIMAGE := $(PREBUILT_PATH)/images/dtbo.img
+TARGET_PREBUILT_KERNEL := $(PREBUILT_PATH)/images/kernel
 
 # Kernel modules
 DLKM_MODULES_PATH := $(PREBUILT_PATH)/modules/vendor_dlkm
