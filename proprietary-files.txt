@@ -16,12 +16,10 @@ vendor/lib64/vendor.mediatek.hardware.aee@1.0.so
 vendor/lib64/vendor.mediatek.hardware.aee@1.1.so
 
 # Audio
-vendor/etc/default_volume_tables.xml
 vendor/etc/misound_asc_model.tflite
 vendor/etc/misound_res.bin
 vendor/etc/misound_res_headphone.bin
 vendor/etc/misound_res_spk.bin
-vendor/etc/r_submix_audio_policy_configuration.xml
 vendor/etc/smartpa_param/AW_DSP.bin
 vendor/lib/hw/audio.primary.mediatek.so
 vendor/lib/hw/audio.r_submix.mediatek.so
@@ -135,8 +133,6 @@ vendor/lib64/vendor.mediatek.hardware.audio@8.1.so
 vendor/firmware/aw882xx_acf.bin
 
 # Audio Configs
-vendor/etc/a2dp_audio_policy_configuration.xml
-vendor/etc/a2dp_in_audio_policy_configuration.xml
 vendor/etc/audio_device.xml
 vendor/etc/audio_effects.xml
 vendor/etc/audio_em.xml
@@ -258,22 +254,9 @@ vendor/etc/audio_param/Volume_AudioParam.xml
 vendor/etc/audio_param/Volume_ParamUnitDesc.xml
 vendor/etc/audio_param/mispeech_param.bin
 vendor/etc/audio_param/nlc.bin
-vendor/etc/audio_policy.conf
-vendor/etc/audio_policy_configuration.xml
-vendor/etc/audio_policy_configuration_a2dp_offload_disabled.xml
-vendor/etc/audio_policy_configuration_a2dp_offload_disabled_cg_enabled.xml
-vendor/etc/audio_policy_configuration_a2dp_offload_enable_cg_enable.xml
-vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml
-vendor/etc/audio_policy_volumes.xml
 vendor/etc/aurisys_config.xml
 vendor/etc/aurisys_config_hifi3.xml
 vendor/etc/aurisys_config_rv.xml
-vendor/etc/bluetooth_a2dp_offload_ums_offload_audio_policy_configuration.xml
-vendor/etc/bluetooth_audio_policy_configuration.xml
-vendor/etc/bluetooth_offload_audio_policy_configuration.xml
-vendor/etc/bluetooth_ums_offload_audio_policy_configuration.xml
-vendor/etc/usb_audio_accessory_only_policy_configuration.xml
-vendor/etc/usb_audio_policy_configuration.xml
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek
