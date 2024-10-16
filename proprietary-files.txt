@@ -16,18 +16,13 @@ vendor/lib64/vendor.mediatek.hardware.aee@1.0.so
 vendor/lib64/vendor.mediatek.hardware.aee@1.1.so
 
 # Audio
-vendor/bin/hw/android.hardware.audio.service.mediatek
 vendor/etc/default_volume_tables.xml
-vendor/etc/init/android.hardware.audio.service.mediatek.rc
 vendor/etc/misound_asc_model.tflite
 vendor/etc/misound_res.bin
 vendor/etc/misound_res_headphone.bin
 vendor/etc/misound_res_spk.bin
 vendor/etc/r_submix_audio_policy_configuration.xml
 vendor/etc/smartpa_param/AW_DSP.bin
-vendor/lib/hw/android.hardware.audio@6.0-impl-mediatek.so
-vendor/lib/hw/android.hardware.audio@7.0-impl-mediatek.so
-vendor/lib/hw/android.hardware.audio@7.1-impl-mediatek.so
 vendor/lib/hw/audio.primary.mediatek.so
 vendor/lib/hw/audio.r_submix.mediatek.so
 vendor/lib/hw/sound_trigger.primary.default.so
@@ -82,9 +77,6 @@ vendor/lib/soundfx/libswvqe.so
 vendor/lib/vendor.mediatek.hardware.audio@6.1.so
 vendor/lib/vendor.mediatek.hardware.audio@7.1.so
 vendor/lib/vendor.mediatek.hardware.audio@8.1.so
-vendor/lib64/hw/android.hardware.audio@6.0-impl-mediatek.so
-vendor/lib64/hw/android.hardware.audio@7.0-impl-mediatek.so
-vendor/lib64/hw/android.hardware.audio@7.1-impl-mediatek.so
 vendor/lib64/hw/audio.primary.mediatek.so
 vendor/lib64/hw/audio.r_submix.mediatek.so
 vendor/lib64/hw/sound_trigger.primary.default.so
