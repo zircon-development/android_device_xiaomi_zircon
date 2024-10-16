@@ -133,9 +133,6 @@ vendor/lib64/vendor.mediatek.hardware.audio@8.1.so
 vendor/firmware/aw882xx_acf.bin
 
 # Audio Configs
-vendor/etc/audio_device.xml
-vendor/etc/audio_effects.xml
-vendor/etc/audio_em.xml
 vendor/etc/audio_param/AW_DSP.bin
 vendor/etc/audio_param/AudioParamOptions_mgvi.xml
 vendor/etc/audio_param/AudioParamOptions_vext.xml
@@ -254,9 +251,6 @@ vendor/etc/audio_param/Volume_AudioParam.xml
 vendor/etc/audio_param/Volume_ParamUnitDesc.xml
 vendor/etc/audio_param/mispeech_param.bin
 vendor/etc/audio_param/nlc.bin
-vendor/etc/aurisys_config.xml
-vendor/etc/aurisys_config_hifi3.xml
-vendor/etc/aurisys_config_rv.xml
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek
