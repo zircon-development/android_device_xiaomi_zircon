@@ -57,6 +57,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     CarrierConfigOverlayZircon \
     FrameworkOverlayZircon \
+    LineageSettingsOverlayZircon \
     SettingsProviderOverlayZircon \
     SystemUIOverlayZircon \
     TelephonyOverlayZircon \
