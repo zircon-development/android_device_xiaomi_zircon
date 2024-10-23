@@ -1698,35 +1698,10 @@ vendor/lib64/mt6886/libDR.so
 vendor/lib64/mt6886/libmnl.so
 vendor/lib64/vendor.mediatek.hardware.gnss.batching-V1-ndk.so
 
-# Init
+# Init (Kerenl)
 vendor/bin/init.insmod.sh
-vendor/etc/factory.ini
-vendor/etc/fstab.emmc
-vendor/etc/fstab.enableswap
-vendor/etc/fstab.mt6886
-vendor/etc/fstb.cfg
 vendor/etc/init.insmod.mt6886.cfg
-vendor/etc/init/bootperf.rc
-vendor/etc/init/hw/factory_init.connectivity.common.rc
-vendor/etc/init/hw/factory_init.connectivity.rc
-vendor/etc/init/hw/factory_init.project.rc
-vendor/etc/init/hw/factory_init.rc
-vendor/etc/init/hw/init.cgroup.rc
-vendor/etc/init/hw/init.connectivity.common.rc
-vendor/etc/init/hw/init.connectivity.rc
-vendor/etc/init/hw/init.modem.rc
-vendor/etc/init/hw/init.mt6886.rc
-vendor/etc/init/hw/init.mt6886.usb.rc
 vendor/etc/init/hw/init.mtkgki.rc
-vendor/etc/init/hw/init.project.rc
-vendor/etc/init/hw/meta_init.connectivity.common.rc
-vendor/etc/init/hw/meta_init.connectivity.rc
-vendor/etc/init/hw/meta_init.modem.rc
-vendor/etc/init/hw/meta_init.project.rc
-vendor/etc/init/hw/meta_init.rc
-vendor/etc/init/hw/meta_init.vendor.rc
-vendor/etc/init/hw/multi_init.rc
-vendor/etc/ueventd.rc
 
 # IR
 vendor/lib/hw/consumerir.common.so
@@ -2428,6 +2403,7 @@ vendor/bin/hw/android.hardware.usb-aidl-service.mediatekv1.0
 vendor/bin/hw/android.hardware.usb.gadget-service.mediatekv1.1
 vendor/etc/init/android.hardware.usb-aidl-service.mediatek.rc
 vendor/etc/init/android.hardware.usb.gadget-service.mediatek.rc
+vendor/etc/init/hw/init.mt6886.usb.rc
 vendor/etc/vintf/manifest/android.hardware.usb-aidl-service.mediatek.xml
 vendor/etc/vintf/manifest/android.hardware.usb.gadget-service.mediatek.xml
 

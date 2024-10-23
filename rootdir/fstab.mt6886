@@ -172,3 +172,5 @@ system_ext /system_ext ext4 ro wait,slotselect,avb=vbmeta_system,logical,first_s
 
 
 /dev/block/by-name/vbmeta /vbmeta emmc defaults defaults
+
+/dev/block/zram0 none swap defaults zramsize=55%

@@ -1,0 +1,61 @@
+prebuilt_etc {
+    name: "fstab.enableswap",
+    src: "fstab.enableswap",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "fstab.mt6886",
+    src: "fstab.mt6886",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.cgroup.rc",
+    src: "init.cgroup.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+
+prebuilt_etc {
+    name: "init.connectivity.common.rc",
+    src: "init.connectivity.common.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.connectivity.rc",
+    src: "init.connectivity.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.modem.rc",
+    src: "init.modem.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mt6886.rc",
+    src: "init.mt6886.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.project.rc",
+    src: "init.project.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "ueventd.mtk.rc",
+    filename: "ueventd.rc",
+    src: "ueventd.mtk.rc",
+    vendor: true,
+}
