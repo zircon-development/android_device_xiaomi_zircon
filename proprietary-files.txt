@@ -2169,7 +2169,6 @@ vendor/etc/powercontable.xml
 vendor/etc/powerscntbl.xml
 vendor/etc/task_profiles.json
 vendor/etc/vintf/manifest/mtkpower_applist-mtk-default.xml
-vendor/etc/vintf/manifest/power-mediatek.xml
 vendor/etc/xgf.cfg
 vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
 vendor/lib/lib_power_applist.so
@@ -2179,7 +2178,6 @@ vendor/lib/libpower_timer.so
 vendor/lib/libpowerhal.so
 vendor/lib/libpowerhalwrap_vendor.so
 vendor/lib/vendor.mediatek.hardware.mtkpower_applist-V1-ndk.so
-vendor/lib64/android.hardware.power-service-mediatek.so
 vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
 vendor/lib64/lib_power_applist.so
 vendor/lib64/libmtkperf_client_vendor.so
