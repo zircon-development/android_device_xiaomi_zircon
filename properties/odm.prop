@@ -23,18 +23,7 @@ debug.sf.set_idle_timer_ms=1100
 persist.vendor.dc_backlight.enable=false
 persist.vendor.sys.pq.disp.mi.soft.brightness=1
 ro.surface_flinger.set_touch_timer_ms=1100
-ro.vendor.bcbc.enable=true
-ro.vendor.cabc.enable=false
-ro.vendor.display.all_modes_support_WCG.enable=true
-ro.vendor.display.update_gray_by_temperature=true
-ro.vendor.histogram.enable=1
-ro.vendor.localhbm.enable=true
-ro.vendor.mi_sf.hdr_enable_flatmode=true
-ro.vendor.mtk.pq.aidl=true
 ro.vendor.mtk.pq.odm=true
-ro.vendor.sre.enable=true
-ro.vendor.xiaomi.bl.poll=true
-vendor.displayfeature.entry.enable=true
 
 # NFC
 ro.vendor.nfc.debounce_field_on=1

@@ -140,7 +140,6 @@ ro.vendor.arm.egl.configs.r8_g8_b8_a8_32bit_fixed.framebuffer_target=false
 ro.vendor.arm.egl.configs.r8_g8_b8_a8_32bit_fixed.hal_format=0x1
 ro.vendor.arm.egl.configs.r8_g8_b8_a8_32bit_fixed.recordable=true
 ro.vendor.composer_version=3.1
-ro.vendor.displayfeature.dump=true
 ro.vendor.mml.mtk_mml_support=1
 ro.vendor.mtk_aod_support=1
 ro.vendor.mtk_backlight_hwc_support=1
