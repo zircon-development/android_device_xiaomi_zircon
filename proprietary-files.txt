@@ -1539,7 +1539,6 @@ vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
 odm/etc/cust_color.xml
 odm/etc/n16u_42_02_0a_dsc_vdo_pq.xml
 vendor/etc/cust_color.xml
-vendor/etc/displayconfig/display_id_4627039422300187648.xml
 
 # Dolby
 vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
@@ -1686,11 +1685,6 @@ vendor/etc/vintf/manifest/android.hardware.identity@4.0-service.mitee.xml
 vendor/etc/vintf/manifest/android.hardware.security.keymint-service.mitee.xml
 vendor/etc/vintf/manifest/android.hardware.security.secureclock-service.mitee.xml
 vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.mitee.xml
-
-# Lights
-vendor/bin/hw/android.hardware.lights-service.mediatek
-vendor/etc/init/lights-mtk-default.rc
-vendor/etc/vintf/manifest/lights-mtk-default.xml
 
 # Tether Offload
 vendor/bin/hw/tetheroffloadservice
