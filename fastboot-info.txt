@@ -1,7 +1,6 @@
 # fastboot-info for lineage_zircon
 version 1
 flash boot
-flash init_boot
 flash dtbo
 flash vendor_boot
 flash --apply-vbmeta vbmeta
@@ -9,6 +8,7 @@ flash vbmeta_system
 flash vbmeta_vendor
 reboot fastboot
 update-super
+flash init_boot
 flash odm
 flash odm_dlkm
 flash product
