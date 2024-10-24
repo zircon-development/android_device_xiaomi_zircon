@@ -53,6 +53,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.service
 
 PRODUCT_PACKAGES += \
+    android.hardware.audio.common-V1-ndk.vendor \
     android.media.audio.common.types-V1-cpp.vendor
 
 PRODUCT_PACKAGES += \
@@ -105,6 +106,7 @@ PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
     android.hardware.camera.common@1.0.vendor \
     android.hardware.camera.device@3.6.vendor \
+    android.hardware.camera.provider-V1-ndk.vendor \
     android.hardware.camera.provider@2.6.vendor
 
 PRODUCT_PACKAGES += \
@@ -119,7 +121,12 @@ PRODUCT_COPY_FILES += \
 
 # Display
 PRODUCT_PACKAGES += \
+    android.hardware.graphics.common-V3-ndk.vendor \
+    android.hardware.graphics.composer3-V1-ndk.vendor \
     android.hardware.graphics.composer@2.2-resources.vendor
+
+PRODUCT_PACKAGES += \
+    libutilscallstack.vendor
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.vulkan.compute-0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.compute-0.xml \
@@ -156,6 +163,7 @@ PRODUCT_PACKAGES += \
 
 # GNSS
 PRODUCT_PACKAGES += \
+    android.hardware.gnss-V2-ndk.vendor \
     android.hardware.gnss.measurement_corrections@1.1.vendor \
     android.hardware.gnss.visibility_control@1.0.vendor \
     android.hardware.gnss@2.1.vendor
@@ -169,6 +177,12 @@ PRODUCT_PACKAGES += \
     android.hidl.memory.block@1.0.vendor \
     libhidltransport.vendor \
     libhwbinder.vendor
+
+PRODUCT_PACKAGES += \
+    libcurl.vendor \
+    libjsoncpp.vendor \
+    libsqlite.vendor \
+    libunwindstack.vendor
 
 # Health
 PRODUCT_PACKAGES += \
@@ -185,12 +199,14 @@ PRODUCT_COPY_FILES += \
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-V1-ndk.vendor \
+    android.hardware.light-V2-ndk.vendor \
     android.hardware.light@2.0.vendor
 
 # Keymint
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0.vendor \
-    android.hardware.security.keymint-V1-ndk.vendor
+    android.hardware.security.keymint-V1-ndk.vendor \
+    android.hardware.security.keymint-V2-ndk.vendor
 
 PRODUCT_PACKAGES += \
     lib_android_keymaster_keymint_utils.vendor \
@@ -220,8 +236,13 @@ PRODUCT_PACKAGES += \
     libcodec2_hidl_plugin \
     libcodec2_soft_common.vendor \
     libcodec2_vndk.vendor \
+    libexpat.vendor \
     libsfplugin_ccodec_utils.vendor \
-    libstagefright_softomx.vendor
+    libstagefright_softomx.vendor \
+
+# Memtrack
+PRODUCT_PACKAGES += \
+    android.hardware.memtrack-V1-ndk.vendor
 
 # Neural Networks
 PRODUCT_PACKAGES += \
@@ -230,6 +251,7 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
+    android.hardware.nfc-V1-ndk.vendor \
     android.hardware.nfc@1.2.vendor \
     android.hardware.secure_element@1.2.vendor
 
@@ -267,6 +289,7 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service-mediatek
 
 PRODUCT_PACKAGES += \
+    android.hardware.power-V3-ndk.vendor \
     android.hardware.power@1.2.vendor \
     vendor.mediatek.hardware.mtkpower@1.0.vendor \
     vendor.mediatek.hardware.mtkpower@1.1.vendor \
@@ -281,6 +304,14 @@ include $(LOCAL_PATH)/properties/vendor_logtag.mk
 
 # Radio
 PRODUCT_PACKAGES += \
+    android.hardware.radio-V1-ndk.vendor \
+    android.hardware.radio.config-V1-ndk.vendor \
+    android.hardware.radio.data-V1-ndk.vendor \
+    android.hardware.radio.messaging-V1-ndk.vendor \
+    android.hardware.radio.modem-V1-ndk.vendor \
+    android.hardware.radio.network-V1-ndk.vendor \
+    android.hardware.radio.sim-V1-ndk.vendor \
+    android.hardware.radio.voice-V1-ndk.vendor \
     android.hardware.radio@1.2.vendor \
     android.hardware.tetheroffload.config@1.0.vendor \
     android.hardware.tetheroffload.control@1.1.vendor
@@ -348,6 +379,7 @@ PRODUCT_COPY_FILES += \
 
 # USB
 PRODUCT_PACKAGES += \
+    android.hardware.usb-V1-ndk.vendor \
     android.hardware.usb.gadget@1.1.vendor
 
 PRODUCT_COPY_FILES += \
