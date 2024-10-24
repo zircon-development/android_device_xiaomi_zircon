@@ -55,6 +55,9 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+        odm/lib*/hw/vendor.xiaomi.sensor.citsensorservice@2.0-impl.so)
+            "${PATCHELF}" --add-needed "libui_shim.so" "${2}"
+            ;;
         vendor/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc)
             sed -i "s/\/odm\/bin\//\/vendor\/bin\//g" "${2}"
             ;;
