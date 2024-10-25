@@ -24,10 +24,10 @@ PRODUCT_SYSTEM_NAME := zircon_global
 PRODUCT_SYSTEM_DEVICE := zircon
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="zircon_global-user 13 TP1A.220624.014 V14.0.7.0.TNOMIXM release-keys" \
+    PRIVATE_BUILD_DESC="zircon_global-user 14 UP1A.231005.007 V816.0.5.0.UNOMIXM release-keys" \
     TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
-BUILD_FINGERPRINT := Redmi/zircon_global/zircon:13/TP1A.220624.014/V14.0.7.0.TNOMIXM:user/release-keys
+BUILD_FINGERPRINT := Redmi/zircon_global/zircon:14/UP1A.231005.007/V816.0.5.0.UNOMIXM:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi

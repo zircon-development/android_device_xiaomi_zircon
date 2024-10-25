@@ -1,4 +1,4 @@
-# Unpinned blobs from miui_ZIRCONGlobal_V14.0.7.0.TNOMIXM_0498819ea4_13.0
+# Unpinned blobs from miui_ZIRCONGlobal_OS1.0.5.0.UNOMIXM_6c93ae149d_14.0
 
 # AEE
 vendor/bin/aee_aedv64_v2
@@ -48,6 +48,7 @@ vendor/lib/libcvsd_mtk.so
 vendor/lib/libmiaudio.so
 vendor/lib/libmisound.so
 vendor/lib/libmisoundcrossfade.so
+vendor/lib/libmisoundkaraoke.so
 vendor/lib/libmispowerop.so
 vendor/lib/libmsbc_mtk.so
 vendor/lib/libmtklimiter_vendor.so
@@ -100,6 +101,7 @@ vendor/lib64/libcvsd_mtk.so
 vendor/lib64/libmiaudio.so
 vendor/lib64/libmisound.so
 vendor/lib64/libmisoundcrossfade.so
+vendor/lib64/libmisoundkaraoke.so
 vendor/lib64/libmispowerop.so
 vendor/lib64/libmsbc_mtk.so
 vendor/lib64/libmtklimiter_vendor.so
@@ -1453,8 +1455,8 @@ odm/lib64/vendor.pixelworks.hardware.feature@1.1.so
 
 # Display Configs
 odm/etc/cust_color.xml
-odm/etc/n16u_42_02_0a_dsc_vdo_pq.xml
 odm/etc/dsi_n16u_42_02_0a_dsc_vdo_mi.xml
+odm/etc/n16u_42_02_0a_dsc_vdo_pq.xml
 vendor/etc/displayconfig/display_id_4627039422300187648.xml
 
 # DRM
@@ -1766,7 +1768,6 @@ odm/lib64/nfc_nci.thn31nfc.tms.so
 odm/lib64/tms-cos-dl-common.so
 odm/lib64/tms-cos-dl-ree.so
 odm/lib64/tms-utils.so
-vendor/etc/1-SN1X0_SPC.txt
 vendor/etc/libnfc-nxp-pnscr.conf
 vendor/etc/sn100u_bootup.pnscr
 vendor/etc/sn100u_ese_disableIso.pnscr
@@ -2162,7 +2163,9 @@ vendor/bin/hw/vendor.xiaomi.hardware.secure_element@1.2-service
 vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc
 vendor/etc/init/vendor.xiaomi.hardware.secure_element@1.2-service.rc
 vendor/lib/libmigpese@1.0.so
+vendor/lib64/jcos_nq_client.so
 vendor/lib64/libmigpese@1.0.so
+vendor/lib64/ls_nq_client.so
 vendor/lib64/se_nq_extn_client.so
 
 # Sensors

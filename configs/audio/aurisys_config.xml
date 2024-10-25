@@ -40,8 +40,8 @@
         </aurisys_scenario>
         <!-- for aurisys_scene record In-ear monitors (IEMs) -->
         <aurisys_scenario aurisys_scenario="AURISYS_SCENARIO_RECORD_IEM">
-            <uplink_library_name_list digital_gain_lib_name="mtk_speech_enh">
-                <library name="mtk_speech_enh"/>
+            <uplink_library_name_list digital_gain_lib_name="">
+                <library name="misoundkaraoke"/>
             </uplink_library_name_list>
         </aurisys_scenario>
         <!-- for aurisys_scene voip -->
@@ -217,6 +217,37 @@
                         <buf_out data_buf_type="DATA_BUF_DOWNLINK_OUT"
                                  num_channels="2"/>
                     </downlink_process>
+                </component>
+            </components>
+        </library>
+        <!--
+         * =====================================================================
+         *   MiSound Karaoke
+         * =====================================================================
+        -->
+        <library name="misoundkaraoke"
+                 lib_path="/vendor/lib/libmisoundkaraoke.so"
+                 lib64_path="/vendor/lib64/libmisoundkaraoke.so"
+                 param_path=""
+                 lib_dump_path="AUTO"
+                 adb_cmd_key="MI_HAL_KTV">
+            <components>
+                <!-- for aurisys_scene AURISYS_SCENARIO_RECORD_IEM -->
+                <component aurisys_scenario="AURISYS_SCENARIO_RECORD_IEM"
+                           sample_rate="48000"
+                           audio_format="AUDIO_FORMAT_PCM_32_BIT"
+                           frame_size_ms="5"
+                           b_interleave="1"
+                           enable_log="1"
+                           enable_raw_dump="0"
+                           enable_lib_dump="0"
+                           enhancement_mode="0">
+                    <uplink_process>
+                        <buf_in  data_buf_type="DATA_BUF_UPLINK_IN"
+                                 num_channels="2"/>
+                        <buf_out data_buf_type="DATA_BUF_UPLINK_OUT"
+                                 num_channels="2"/>
+                    </uplink_process>
                 </component>
             </components>
         </library>
