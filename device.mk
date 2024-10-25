@@ -280,6 +280,7 @@ PRODUCT_PACKAGES += \
     FrameworkOverlayZircon \
     LineageSettingsOverlayZircon \
     LineagePowerOffAlarmOverlayZircon \
+    SettingsOverlayZircon \
     SettingsProviderOverlayZircon \
     SystemUIOverlayZircon \
     TelephonyOverlayZircon \
