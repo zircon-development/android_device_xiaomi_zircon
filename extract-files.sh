@@ -58,6 +58,9 @@ function blob_fixup() {
         vendor/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc)
             sed -i "s/\/odm\/bin\//\/vendor\/bin\//g" "${2}"
             ;;
+        vendor/bin/hw/android.hardware.security.keymint@2.0-service.mitee)
+            "${PATCHELF}" --add-needed "android.hardware.security.rkp-V3-ndk.so" "${2}"
+            ;;
     esac
 }
 
