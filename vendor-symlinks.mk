@@ -88,9 +88,6 @@ ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/bin/hw/arm.mali.platform-s
 $(TARGET_OUT_VENDOR)/bin/hw/camerahalserver: $(LOCAL_INSTALLED_MODULE)
 $(call symlink-file,,mt6886/camerahalserver,$(TARGET_OUT_VENDOR)/bin/hw/camerahalserver)
 ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/bin/hw/camerahalserver
-$(TARGET_OUT_VENDOR)/etc/mdota: $(LOCAL_INSTALLED_MODULE)
-$(call symlink-file,,/mnt/vendor/mdota,$(TARGET_OUT_VENDOR)/etc/mdota)
-ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/etc/mdota
 $(TARGET_OUT_VENDOR)/lib/arm.graphics-V2-ndk.so: $(LOCAL_INSTALLED_MODULE)
 $(call symlink-file,,mt6886/arm.graphics-V2-ndk.so,$(TARGET_OUT_VENDOR)/lib/arm.graphics-V2-ndk.so)
 ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/lib/arm.graphics-V2-ndk.so
