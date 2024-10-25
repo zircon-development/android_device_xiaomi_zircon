@@ -10,6 +10,7 @@ import ${ro.vendor.rc}init.volte.rc
 import ${ro.vendor.rc}init.mal.rc
 import ${ro.vendor.rc}${ro.vendor.init.sensor.rc}
 import ${ro.vendor.rc}init.cgroup.rc
+import ${ro.vendor.rc}init.fingerprint.rc
 
 # init.modem.rc must be the LAST rc file because vold.post_fs_data_done is set in it
 import ${ro.vendor.rc}init.modem.rc

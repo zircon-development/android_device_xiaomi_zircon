@@ -155,7 +155,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1.vendor
+    android.hardware.biometrics.fingerprint@2.3-service.xiaomi
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
@@ -334,6 +334,7 @@ PRODUCT_PACKAGES += \
     init.cgroup.rc \
     init.connectivity.common.rc \
     init.connectivity.rc \
+    init.fingerprint.rc \
     init.modem.rc \
     init.mt6886.rc \
     init.project.rc \
