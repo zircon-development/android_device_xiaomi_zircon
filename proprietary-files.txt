@@ -2032,7 +2032,6 @@ vendor/bin/ccci_mdinit
 vendor/bin/ccci_rpcd
 vendor/bin/gsm0710muxd
 vendor/bin/hw/mtkfusionrild
-vendor/bin/hw/vtservice_hidl
 vendor/bin/rcs_volte_stack
 vendor/bin/rcs_volte_stack64
 vendor/bin/volte_clientapi_ua
@@ -2053,7 +2052,6 @@ vendor/etc/init/init.cccifsd.rc
 vendor/etc/init/init.cccimdinit.rc
 vendor/etc/init/init.cccirpcd.rc
 vendor/etc/init/init.connfem.rc
-vendor/etc/init/init.vtservice_hidl.rc
 vendor/etc/init/mtkrild.rc
 vendor/etc/init/muxreport.rc
 vendor/etc/init/volte_clientapi_ua.rc
@@ -2073,7 +2071,6 @@ vendor/etc/virtual-spn-conf-by-efgid1.xml
 vendor/etc/virtual-spn-conf-by-efpnn.xml
 vendor/etc/virtual-spn-conf-by-efspn.xml
 vendor/etc/virtual-spn-conf-by-imsi.xml
-vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib/libcapctrl.so
 vendor/lib/libcares_naptr.so
 vendor/lib/libcarrierconfig.so
@@ -2091,8 +2088,6 @@ vendor/lib/librcs_volte_core.so
 vendor/lib/libstorage_otp.so
 vendor/lib/libsysenv.so
 vendor/lib/vendor.mediatek.hardware.rcs@2.0.so
-vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so
-vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib64/libcapctrl.so
 vendor/lib64/libcares_naptr.so
 vendor/lib64/libcarrierconfig.so
@@ -2143,6 +2138,39 @@ vendor/lib64/vendor.mediatek.hardware.mtkradioex.sim-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex.smartratswitch-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex.voice-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.rcs@2.0.so
+
+# Radio (IMS)
+system_ext/bin/vtservice
+system_ext/etc/init/init.vtservice.rc
+system_ext/framework/mediatek-common.jar:framework/mediatek-common.jar
+system_ext/framework/mediatek-framework.jar:framework/mediatek-framework.jar
+system_ext/framework/mediatek-ims-base.jar:framework/mediatek-ims-base.jar
+system_ext/framework/mediatek-ims-common.jar:framework/mediatek-ims-common.jar
+system_ext/framework/mediatek-ims-extension-plugin.jar:framework/mediatek-ims-extension-plugin.jar
+system_ext/framework/mediatek-telecom-common.jar:framework/mediatek-telecom-common.jar
+system_ext/framework/mediatek-telephony-base.jar:framework/mediatek-telephony-base.jar
+system_ext/framework/mediatek-telephony-common.jar:framework/mediatek-telephony-common.jar
+system_ext/lib64/libcomutils.so
+system_ext/lib64/libimsma.so
+system_ext/lib64/libimsma_adapt.so
+system_ext/lib64/libimsma_rtp.so
+system_ext/lib64/libimsma_socketwrapper.so
+system_ext/lib64/libmtk_vt_service.so
+system_ext/lib64/libmtk_vt_wrapper.so
+system_ext/lib64/libsignal.so
+system_ext/lib64/libsink.so
+system_ext/lib64/libsource.so
+system_ext/lib64/libvcodec_cap.so
+system_ext/lib64/libvcodec_capenc.so
+system_ext/lib64/libvt_avsync.so
+system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so
+system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+system_ext/priv-app/ImsService/ImsService.apk
+vendor/bin/hw/vtservice_hidl
+vendor/etc/init/init.vtservice_hidl.rc
+vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
+vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so
+vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
 # Secure Element

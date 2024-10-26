@@ -231,6 +231,7 @@ persist.system.powerhal.applist_enable=1
 
 # Radio
 persist.radio.multisim.config=dsds
+persist.vendor.anr.enhancement=0
 persist.vendor.ims_support=1
 persist.vendor.md_c2k_cap_dep_check=0
 persist.vendor.mims_support=2
@@ -252,9 +253,11 @@ persist.vendor.volte_support=1
 ro.telephony.default_network=33,33,33,33
 ro.telephony.iwlan_operation_mode=AP-assisted
 ro.telephony.sim.count=2
+ro.vendor.md_auto_setup_ims=1
 ro.vendor.md_log_memdump_wait=15
 ro.vendor.mtk_c2k_lte_mode=2
 ro.vendor.mtk_c2k_support=1
+ro.vendor.mtk_data_config=1
 ro.vendor.mtk_eccci_c2k=1
 ro.vendor.mtk_external_sim_only_slots=0
 ro.vendor.mtk_external_sim_support=1
@@ -262,6 +265,7 @@ ro.vendor.mtk_fd_support=1
 ro.vendor.mtk_gwsd_capability=2
 ro.vendor.mtk_lte_support=1
 ro.vendor.mtk_mipc_support=1
+ro.vendor.mtk_mobile_management=1
 ro.vendor.mtk_protocol1_rat_config=N/C/Lf/Lt/W/G
 ro.vendor.mtk_ps1_rat=N/C/Lf/Lt/W/G
 ro.vendor.mtk_ril_mode=c6m_1rild
