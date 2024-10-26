@@ -212,3 +212,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Vendor
 include vendor/xiaomi/zircon/BoardConfigVendor.mk
+include vendor/xiaomi/zircon-firmware/common/BoardConfigVendor.mk
