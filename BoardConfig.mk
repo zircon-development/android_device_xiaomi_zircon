@@ -10,6 +10,7 @@ DEVICE_PATH := device/xiaomi/zircon
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS := \
     boot \
+    dtbo \
     init_boot \
     odm \
     odm_dlkm \
@@ -119,6 +120,9 @@ BOOT_KERNEL_MODULES := $(BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD) $(BO
 
 BOARD_VENDOR_KERNEL_MODULES_EXTRA := $(strip $(shell cat $(DEVICE_PATH)/modules/vendor_dlkm.modules.extra))
 BOOT_KERNEL_MODULES += $(BOARD_VENDOR_KERNEL_MODULES_EXTRA)
+
+# Kernel (prebuilt)
+BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)-kernel/images/dtbo.img
 
 # Lineage Health
 TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false

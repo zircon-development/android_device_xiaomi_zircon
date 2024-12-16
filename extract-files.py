@@ -70,7 +70,6 @@ module = ExtractUtilsModule(
     blob_fixups=blob_fixups,
     namespace_imports=namespace_imports,
     lib_fixups=lib_fixups,
-    add_firmware_proprietary_file=True,
 )
 
 if __name__ == '__main__':
