@@ -71,6 +71,9 @@ BOARD_KERNEL_OFFSET := 0x00008000
 BOARD_KERNEL_TAGS_OFFSET := 0x07c88000
 BOARD_RAMDISK_OFFSET := 0x26f08000
 
+BOARD_CUSTOM_DTBOIMG_MK := $(DEVICE_PATH)/dtbo/mkdtboimg.mk
+BOARD_KERNEL_SEPARATED_DTBO := true
+
 BOARD_MKBOOTIMG_ARGS :=	\
     --kernel_offset $(BOARD_KERNEL_OFFSET) \
     --ramdisk_offset $(BOARD_RAMDISK_OFFSET) \
@@ -90,9 +93,6 @@ TARGET_KERNEL_CONFIG := \
     vendor/mgk_64_k515.config \
     vendor/xiaomi_mgk.config \
     vendor/zircon.config
-
-TARGET_KERNEL_DTB := \
-    mediatek/mt6886.dtb
 
 BOARD_KERNEL_CMDLINE := \
     bootopt=64S3,32N2,64N2
@@ -120,9 +120,6 @@ BOOT_KERNEL_MODULES := $(BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD) $(BO
 
 BOARD_VENDOR_KERNEL_MODULES_EXTRA := $(strip $(shell cat $(DEVICE_PATH)/modules/vendor_dlkm.modules.extra))
 BOOT_KERNEL_MODULES += $(BOARD_VENDOR_KERNEL_MODULES_EXTRA)
-
-# Kernel (prebuilt)
-BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)-kernel/images/dtbo.img
 
 # Lineage Health
 TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
