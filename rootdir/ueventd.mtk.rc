@@ -222,3 +222,11 @@
 /sys/class/power_supply/battery input_suspend 0660 system system
 /sys/class/power_supply/battery sport_mode 0660 system system
 /sys/class/power_supply/battery smart_chg 0660 system system
+
+# Xiaomi display feature
+subsystem mi_display
+    devname uevent_devpath
+    dirname /dev/mi_display
+
+# Xiaomi display feature
+/dev/mi_display/*         0666   root       graphics
