@@ -1252,8 +1252,6 @@ odm/etc/n16u_42_02_0a_dsc_vdo_pq.xml
 vendor/etc/displayconfig/display_id_4627039422300187648.xml
 
 # DRM
-odm/lib64/libwvkeybox.so
-odm/lib64/libwvkeyboxext.so
 vendor/bin/hw/android.hardware.drm-service.widevine
 vendor/etc/init/android.hardware.drm-service.widevine.rc
 vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml
