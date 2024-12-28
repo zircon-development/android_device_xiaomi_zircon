@@ -1,10 +1,6 @@
 # Batterysecret
 persist.vendor.accelerate.charge=true
 
-# Camera
-persist.vendor.vcb.ability=true
-persist.vendor.vcb.enable=false
-
 # Graphics
 debug.sf.high_fps.early.app.duration=10000000
 debug.sf.high_fps.early.sf.duration=13800000
