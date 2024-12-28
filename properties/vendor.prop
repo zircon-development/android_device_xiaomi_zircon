@@ -1,7 +1,7 @@
 # Aee
 ro.vendor.aee.convert64=1
 ro.vendor.mediatek.version.branch=alps-mp-t0.mp1.tc8sp2
-ro.vendor.mediatek.version.release=alps-mp-t0.mp1.tc8sp2-V1.14_P429
+ro.vendor.mediatek.version.release=alps-mp-t0.mp1.tc8sp2-V1.14_P437
 ro.vendor.mgvi_name=mgvi_64_armv82
 
 # Apex
@@ -22,10 +22,13 @@ persist.vendor.audio.misoundasc=true
 ro.audio.monitorRotation=true
 ro.vendor.audio.dolby.dax.support=false
 ro.vendor.audio.gain.support=true
+ro.vendor.audio.ktv.support=true
 ro.vendor.audio.scenario.support=true
 ro.vendor.audio.soundfx.type=mi
 ro.vendor.audio.soundfx.usb=true
+ro.vendor.audio.soundtrigger.wakeupword=1
 vendor.audio.powerhal.power.ul=true
+vendor.audio.spkcal.copy.inhal=true
 vendor.audio.usb.iems.period_us=5000
 vendor.audio.usb.super_hifi=true
 vendor.audiohal.telephonytx.type=2
@@ -110,6 +113,9 @@ debug.sf.late.app.duration=16600000
 debug.sf.late.sf.duration=10500000
 debug.sf.treat_170m_as_sRGB=1
 debug.sf.use_phase_offsets_as_durations=1
+graphics.gpu.profiler.support=true
+persist.sys.sf.color_saturation=1.1
+persist.sys.sf.native_mode=0
 persist.vendor.sys.pq.disp.ccorr.silky.brightness=0
 persist.vendor.sys.pq.disp.gamma.silky.brightness=0
 persist.vendor.sys.pq.mtk_disp_clarity_support=0
@@ -148,6 +154,7 @@ ro.vendor.arm.egl.configs.r8_g8_b8_a8_32bit_fixed.hal_format=0x1
 ro.vendor.arm.egl.configs.r8_g8_b8_a8_32bit_fixed.recordable=true
 ro.vendor.composer_version=3.1
 ro.vendor.mml.mtk_mml_support=1
+ro.vendor.mtk_aal_support=1
 ro.vendor.mtk_aod_support=1
 ro.vendor.mtk_backlight_hwc_support=0
 ro.vendor.mtk_blulight_def_support=1
@@ -181,15 +188,16 @@ ro.vendor.pq.mtk_libaibld_name=libaibld.nn6.so
 ro.vendor.pq.mtk_mdp_ccorr_support=0
 ro.vendor.pq.mtk_mdp_lite_pq_support=0
 ro.vendor.pq.mtk_mmlpq_support=1
-ro.vendor.pq.mtk_pq_interface_support=0
+ro.vendor.pq.mtk_pq_interface_support=1
 ro.vendor.pq.mtk_pq_video_whitelist_support=0
 ro.vendor.pq.mtk_scltm_support=1
 ro.vendor.pq.mtk_silky_brigtness_support=0
 ro.vendor.pq.mtk_ultra_dimming_support=0
 ro.vendor.pq.mtk_ultra_resolution_support=1
 ro.vendor.pq.mtk_video_transition=0
-persist.sys.sf.color_saturation=1.1
-persist.sys.sf.native_mode=0
+
+# DRM
+drm.service.enabled=1
 
 # FM
 ro.vendor.fm.platform=connac2x
@@ -213,13 +221,15 @@ media.c2.dmabuf.padding=3072
 ro.config.media_vol_default=10
 ro.config.vc_call_vol_steps=11
 ro.odm.build.media_performance_class=0
+ro.vendor.hdr10plus.enable=1
 ro.vendor.mtk.c2.vdec.fmt.support.level=3
 ro.vendor.mtk_config_max_dram_size=
 ro.vendor.mtk_mvpu_security_support=0
 ro.vendor.mtk_sec_video_path_support=1
-vendor.mtk.vdec.decode.error.handle.mode=3
-vendor.mtk.vdec.waitkeyframeforplay=9
+ro.vendor.mtk_video_hevc_enc_support=1
 vendor.media.omx=0
+vendor.mtk.vdec.decode.error.handle.mode=1
+vendor.mtk.vdec.waitkeyframeforplay=9
 
 # Netflix
 ro.netflix.bsp_rev=MTK6886-36560-1
@@ -248,6 +258,7 @@ persist.vendor.mims_support=2
 persist.vendor.mtk.volte.enable=1
 persist.vendor.mtk_ct_volte_support=3
 persist.vendor.mtk_dynamic_ims_switch=1
+persist.vendor.mtk_sim_switch_policy=2
 persist.vendor.mtk_wfc_support=1
 persist.vendor.radio.fd.counter=150
 persist.vendor.radio.fd.off.counter=50
@@ -257,6 +268,7 @@ persist.vendor.radio.msimmode=dsds
 persist.vendor.radio.mtk_dsbp_support=3
 persist.vendor.radio.mtk_ps2_rat=N/L/W/G
 persist.vendor.radio.mtk_ps3_rat=G
+persist.vendor.radio.smart.data.switch=1
 persist.vendor.vilte_support=1
 persist.vendor.viwifi_support=1
 persist.vendor.volte_support=1
@@ -269,11 +281,13 @@ ro.vendor.mtk_external_sim_only_slots=0
 ro.vendor.mtk_external_sim_support=1
 ro.vendor.mtk_fd_support=1
 ro.vendor.mtk_gwsd_capability=2
+ro.vendor.mtk_md_world_mode_support=1
 ro.vendor.mtk_mipc_support=1
 ro.vendor.mtk_mobile_management=1
 ro.vendor.mtk_ril_mode=c6m_1rild
 ro.vendor.mtk_sim_card_onoff=3
 ro.vendor.mtk_sim_hot_swap_common_slot=1
+ro.vendor.mtk_wappush_support=1
 ro.vendor.mtk_world_phone_policy=0
 ro.vendor.num_md_protocol=2
 ro.vendor.sim_me_lock_mode=3
@@ -284,6 +298,10 @@ import /vendor/etc/rsc/${ro.boot.rsc}/ro.prop
 # Sensor
 ro.vendor.mtk.sensor.support=yes
 ro.vendor.sensors.xiaomi.udfps=true
+
+# TEE
+ro.vendor.mtk_microtrust_tee_support=1
+ro.vendor.mtk_mitee_support=1
 
 # USB
 ro.vendor.usb.kpoc_adb=0
