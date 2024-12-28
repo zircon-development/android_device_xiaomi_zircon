@@ -1,2 +1,3 @@
+ro.boot.product.vendor.sku=${ro.boot.hwc}
 ro.product.odm.model=23090RA98C
 ro.product.odm.name=zircon

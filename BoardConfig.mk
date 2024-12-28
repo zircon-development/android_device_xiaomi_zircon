@@ -57,6 +57,11 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/hidl/compatibility_matrix.xml
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/hidl/manifest_vendor.xml
 
+DEVICE_MANIFEST_SKUS += CN
+DEVICE_MANIFEST_NFC_FILES := \
+    $(DEVICE_MANIFEST_FILE) \
+    $(DEVICE_PATH)/configs/vintf/manifest_vendor_eSE.xml
+
 # Kernel
 BOARD_KERNEL_BASE := 0x3fff8000
 BOARD_KERNEL_IMAGE_NAME := Image.gz
