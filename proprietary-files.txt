@@ -525,6 +525,8 @@ vendor/etc/camera/ldc/N16U_GL_LDC_REAR_FPC_TUNING.bin
 vendor/etc/camera/ldc/N16U_GL_LDC_REAR_PACKDATA.dat
 vendor/etc/camera/ldc/N16U_IN_LDC_REAR_FPC_TUNING.bin
 vendor/etc/camera/ldc/N16U_IN_LDC_REAR_PACKDATA.dat
+vendor/etc/camera/ldc/N16U_JP_LDC_REAR_FPC_TUNING.bin
+vendor/etc/camera/ldc/N16U_JP_LDC_REAR_PACKDATA.dat
 vendor/etc/camera/libarcsoft_high_dynamic_range.bin
 vendor/etc/camera/libarcsoft_super_night_raw.bin
 vendor/etc/camera/libarcsoft_super_night_raw_front.bin
