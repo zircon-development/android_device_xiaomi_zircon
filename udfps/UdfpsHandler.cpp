@@ -9,8 +9,10 @@
 #include <android-base/logging.h>
 #include <android-base/unique_fd.h>
 
+#include <poll.h>
 #include <sys/ioctl.h>
 #include <fstream>
+#include <thread>
 
 #include "UdfpsHandler.h"
 #include <linux/xiaomi_touch.h>
@@ -70,6 +72,31 @@ class ZirconUdfpsHander : public UdfpsHandler {
     void init(fingerprint_device_t* device) {
         mDevice = device;
         touch_fd_ = android::base::unique_fd(open(TOUCH_DEV_PATH, O_RDWR));
+
+        std::thread([this]() {
+            int fd = open(FOD_PRESS_STATUS_PATH, O_RDONLY);
+            if (fd < 0) {
+                LOG(ERROR) << "failed to open fd, err: " << fd;
+                return;
+            }
+
+            struct pollfd fodPressStatusPoll = {
+                    .fd = fd,
+                    .events = POLLERR | POLLPRI,
+                    .revents = 0,
+            };
+
+            while (true) {
+                int rc = poll(&fodPressStatusPoll, 1, -1);
+                if (rc < 0) {
+                    LOG(ERROR) << "failed to poll fd, err: " << rc;
+                    continue;
+                }
+
+                mDevice->extCmd(mDevice, COMMAND_FOD_PRESS_STATUS,
+                                readBool(fd) ? PARAM_FOD_PRESSED : PARAM_FOD_RELEASED);
+            }
+        }).detach();
     }
 
     void onFingerDown(uint32_t /*x*/, uint32_t /*y*/, float /*minor*/, float /*major*/) {
@@ -120,10 +147,6 @@ class ZirconUdfpsHander : public UdfpsHandler {
         set(DISP_PARAM_PATH,
             std::string(DISP_PARAM_LOCAL_HBM_MODE) + " " +
                     (pressed ? DISP_PARAM_LOCAL_HBM_ON : DISP_PARAM_LOCAL_HBM_OFF));
-
-        if (pressed) {
-            mDevice->extCmd(mDevice, COMMAND_FOD_PRESS_STATUS, PARAM_FOD_PRESSED);
-        }
     }
 };
 
