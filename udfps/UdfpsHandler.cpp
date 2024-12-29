@@ -190,7 +190,6 @@ class ZirconUdfpsHander : public UdfpsHandler {
         LOG(INFO) << __func__ << " result: " << result << " vendorCode: " << vendorCode;
         if (result == FINGERPRINT_ACQUIRED_GOOD) {
             setFingerDown(false);
-            setFodStatus(FOD_STATUS_OFF);
         } else if (vendorCode == 21 || vendorCode == 23) {
             /*
              * vendorCode = 21 waiting for fingerprint authentication
@@ -203,7 +202,6 @@ class ZirconUdfpsHander : public UdfpsHandler {
     void cancel() {
         LOG(INFO) << __func__;
         setFingerDown(false);
-        setFodStatus(FOD_STATUS_OFF);
     }
 
   private:
