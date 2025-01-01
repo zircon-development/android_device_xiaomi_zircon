@@ -13,56 +13,56 @@ prebuilt_etc {
 prebuilt_etc {
     name: "init.connectivity.common.rc",
     src: "init.connectivity.common.rc",
-    sub_dir: "init/hw",
+    relative_install_path: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "init.connectivity.rc",
     src: "init.connectivity.rc",
-    sub_dir: "init/hw",
+    relative_install_path: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "init.fingerprint.rc",
     src: "init.fingerprint.rc",
-    sub_dir: "init/hw",
+    relative_install_path: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "init.modem.rc",
     src: "init.modem.rc",
-    sub_dir: "init/hw",
+    relative_install_path: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "init.mt6886.rc",
     src: "init.mt6886.rc",
-    sub_dir: "init/hw",
+    relative_install_path: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "init.mt6886.usb.rc",
     src: "init.mt6886.usb.rc",
-    sub_dir: "init/hw",
+    relative_install_path: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "init.power.rc",
     src: "init.power.rc",
-    sub_dir: "init/hw",
+    relative_install_path: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "init.project.rc",
     src: "init.project.rc",
-    sub_dir: "init/hw",
+    relative_install_path: "init/hw",
     vendor: true,
 }
 

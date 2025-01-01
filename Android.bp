@@ -11,7 +11,7 @@ soong_namespace {
         "hardware/lineage/interfaces/power-libperfmgr",
         "hardware/mediatek/libmtkperf_client",
         "hardware/mediatek",
-        "hardware/xiaomi"
+        "hardware/xiaomi",
     ],
 }
 
