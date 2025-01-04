@@ -1,3 +1,27 @@
 # Unpinned fw from miui_ZIRCONGlobal_OS1.0.7.0.UNOMIXM_31691cdfde_14.0
 
 dtbo.img;AB
+
+# miui_ZIRCONGlobal_OS1.0.2.0.UNOMIXM_042c23442e_14.0
+apusys.img;AB|f9c49314b0f5abd07bf38764d5f3d05b9b76a760
+audio_dsp.img;AB|3423934e381c31926c0df5873a0c5f4dccf7d274
+ccu.img;AB|bc289089d841c0dcf33277cae7268d22957b37e5
+connsys_bt.img;AB|76a107879edaf3d188c63471134578239df0f466
+connsys_gnss.img;AB|3ee2d63935f790411805da9cbfb5daa493457381
+connsys_wifi.img;AB|ec226e10ef512d37fa8a209dc71f49f067bda9b0
+dpm.img;AB|faab4e9bde66951fbf0a51887178f07a46ab2beb
+gpueb.img;AB|405fc6211ddc2f424d062c15e57be521668024ab
+gz.img;AB|3698dd8ef351749ef798c569d31e62f3b831bfc5
+lk.img;AB|d1a61bfd42a3a7df9bb2fd831553bcbff9e9b121
+logo.bin:logo.img;AB|b049853ff2103e660f03f917abfa165ccc7cb323
+mcf_ota.img;AB|ffd367f3a5f9bc22caccaefb446603f093c5bfca
+mcupm.img;AB|d62faafe470a8f82477f525de5a04e9b610c55a3
+md1img.img;AB|3bab504bd5bb06d01f6c99681e9a044e173c0208
+mvpu_algo.img;AB|8f02dac0501e15e1fce7ce26bbacf99b42ec8e87
+pi_img.img;AB|0ac97c509de3335caa7d5ef7e58de9648a9fc04d
+preloader_zircon.bin:preloader_raw.img;AB|13cbbbdda4986b66f2fa8c6fb3f58578dceac890
+scp.img;AB|a75644aaf5ecb3282b46605578aa66b5e94b419c
+spmfw.img;AB|8fef3a92bbd96a55d4f170438a1e36e17016ca26
+sspm.img;AB|7cfb321a7ee8222f43334797ddcc59db36417dee
+tee.img;AB|a5acd91cea62049979c3ef9cd1687b998f822001
+vcp.img;AB|30e60610bf662ea2b9f9e814b4b1424ac9c97bec
