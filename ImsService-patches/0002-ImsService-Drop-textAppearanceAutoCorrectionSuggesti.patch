@@ -1,25 +1,26 @@
-From 0d6e8d2f4d6651640e7f956e2de4954cf7fe834a Mon Sep 17 00:00:00 2001
+From 7f5c3fe86c40e65bb3e445c7cc2bc41bac0951c4 Mon Sep 17 00:00:00 2001
 From: AdarshGrewal <adarshgrewal@gmail.com>
-Date: Mon, 11 Nov 2024 17:38:08 +0530
-Subject: [PATCH 2/2] ImsService: Drop successColor attribute
+Date: Sun, 5 Jan 2025 03:08:29 +0530
+Subject: [PATCH 2/2] ImsService: Drop textAppearanceAutoCorrectionSuggestion
+ attribute
 
 ---
  AndroidManifest.xml | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/AndroidManifest.xml b/AndroidManifest.xml
-index 1aae123..a518263 100644
+index 5a70bd8..a518263 100644
 --- a/AndroidManifest.xml
 +++ b/AndroidManifest.xml
 @@ -60,7 +60,7 @@
                  <action android:name="android.telephony.ims.ImsService"/>
              </intent-filter>
          </service>
--        <receiver android:exported="false" android:name="com.mediatek.ims.ImsKeeperReceiver" androidprv:successColor="true">
+-        <receiver android:exported="false" android:name="com.mediatek.ims.ImsKeeperReceiver" androidprv:textAppearanceAutoCorrectionSuggestion="true">
 +        <receiver android:exported="false" android:name="com.mediatek.ims.ImsKeeperReceiver">
              <intent-filter>
                  <action android:name="android.telephony.action.CARRIER_CONFIG_CHANGED"/>
              </intent-filter>
 -- 
-2.47.0
+2.47.1
 

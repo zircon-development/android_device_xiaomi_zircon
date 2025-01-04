@@ -24,8 +24,8 @@ PRODUCT_SYSTEM_NAME := zircon_global
 PRODUCT_SYSTEM_DEVICE := zircon
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="zircon_global-user 14 UP1A.231005.007 V816.0.5.0.UNOMIXM release-keys" \
-    BuildFingerprint=Redmi/zircon_global/zircon:14/UP1A.231005.007/V816.0.5.0.UNOMIXM:user/release-keys \
+    BuildDesc="zircon_global-user 14 UP1A.231005.007 V816.0.9.0.UNOMIXM release-keys" \
+    BuildFingerprint=Redmi/zircon_global/zircon:14/UP1A.231005.007/V816.0.9.0.UNOMIXM:user/release-keys \
     DeviceName=$(PRODUCT_SYSTEM_DEVICE) \
     DeviceProduct=$(PRODUCT_SYSTEM_NAME)
 
