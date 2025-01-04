@@ -385,4 +385,3 @@ PRODUCT_COPY_FILES += \
 
 # Vendor
 $(call inherit-product, vendor/xiaomi/zircon/zircon-vendor.mk)
-$(call inherit-product, vendor/xiaomi/zircon-firmware/common/common-vendor.mk)
