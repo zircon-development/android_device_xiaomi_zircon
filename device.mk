@@ -51,20 +51,20 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.audio.effect@7.0-impl:64 \
-    android.hardware.audio@7.1-impl:64 \
-    android.hardware.soundtrigger@2.3-impl:64 \
+    android.hardware.audio.effect@7.0-impl \
+    android.hardware.audio@7.1-impl \
+    android.hardware.soundtrigger@2.3-impl \
     android.hardware.audio.service
 
 PRODUCT_PACKAGES += \
-    audio.bluetooth.default:64 \
-    audio.primary.default:64 \
-    audio.r_submix.default:64 \
-    audio.usb.default:64
+    audio.bluetooth.default \
+    audio.primary.default \
+    audio.r_submix.default \
+    audio.usb.default
 
 PRODUCT_PACKAGES += \
-    libaudiofoundation.vendor:64 \
-    libaudiopreprocessing:64
+    libaudiofoundation.vendor \
+    libaudiopreprocessing
 
 PRODUCT_PACKAGES += \
     MtkInCallService
@@ -94,7 +94,7 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth.audio-impl:64
+    android.hardware.bluetooth.audio-impl
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.bluetooth.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth.xml \
@@ -102,7 +102,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    libcamera2ndk_vendor:64
+    libcamera2ndk_vendor
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.flash-autofocus.xml \
@@ -140,14 +140,14 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint-service.xiaomi \
-    libudfpshandler:64
+    libudfpshandler
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
-    android.hardware.gatekeeper@1.0-impl:64 \
+    android.hardware.gatekeeper@1.0-impl \
     android.hardware.gatekeeper@1.0-service
 
 # GNSS
@@ -370,7 +370,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
     hostapd \
-    libwifi-hal-wrapper:64 \
+    libwifi-hal-wrapper \
     wpa_supplicant
 
 PRODUCT_COPY_FILES += \
