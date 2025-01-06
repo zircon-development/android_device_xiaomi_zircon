@@ -1,2 +1,0 @@
-# GPS
-genfscon proc /mtk_aov_debug/kernel u:object_r:proc_aov_kernel:s0

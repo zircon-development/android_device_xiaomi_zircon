@@ -1,8 +1,0 @@
-allow hal_mtk_pq_client mtk_hal_pq_service:service_manager find;
-allow hal_mtk_pq_server mtk_hal_pq_service:service_manager { add find };
-allow hal_mtk_pq_server servicemanager:binder { call transfer };
-allow hal_mtk_pq_server servicemanager:fd *;
-
-allow mtk_hal_pq self:capability sys_nice;
-binder_use(mtk_hal_pq)
-hal_client_domain(mtk_hal_pq, hal_graphics_allocator)

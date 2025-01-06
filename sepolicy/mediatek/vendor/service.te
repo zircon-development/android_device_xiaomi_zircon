@@ -1,5 +1,0 @@
-# MMLPQ
-type mtk_hal_mmlpq_service, protected_service, service_manager_type;
-
-# PQ
-type mtk_hal_pq_service, protected_service, service_manager_type;

@@ -1,2 +1,0 @@
-allow hal_drm_client hal_drm_service:service_manager find;
-allow hal_drm_server hal_drm_service:service_manager { add find };

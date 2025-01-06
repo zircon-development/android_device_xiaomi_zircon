@@ -1,4 +1,0 @@
-type connsys_bt_block_device, dev_type;
-type connsys_gnss_block_device, dev_type;
-type connsys_wifi_block_device, dev_type;
-type mtk_aov_device, dev_type;

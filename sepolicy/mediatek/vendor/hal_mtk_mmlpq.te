@@ -1,8 +1,0 @@
-allow hal_mtk_mmlpq_client hal_mtk_mmlpq_server:binder { call transfer };
-allow hal_mtk_mmlpq_client hal_mtk_mmlpq_server:binder transfer;
-allow hal_mtk_mmlpq_client hal_mtk_mmlpq_server:fd *;
-allow hal_mtk_mmlpq_client mtk_hal_mmlpq_service:service_manager find;
-allow hal_mtk_mmlpq_server hal_mtk_mmlpq_client:binder transfer;
-allow hal_mtk_mmlpq_server hal_mtk_mmlpq_client:binder { call transfer };
-allow hal_mtk_mmlpq_server hal_mtk_mmlpq_client:fd *;
-allow hal_mtk_mmlpq_server mtk_hal_mmlpq_service:service_manager { add find };

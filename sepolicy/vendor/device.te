@@ -1,0 +1,8 @@
+# DisplayFeature
+type vendor_displayfeature_device, dev_type;
+
+# TEE
+type mitee_client_device, dev_type, mlstrustedobject;
+
+# TouchFeature
+type touchfeature_device, dev_type;

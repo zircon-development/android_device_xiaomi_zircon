@@ -16,9 +16,6 @@ genfscon sysfs /devices/virtual/touch/touch_dev/fod_press_status u:object_r:vend
 # NFC
 genfscon sysfs /devices/platform/soc/11e80000.i2c/i2c-3/3-0028/chip_name u:object_r:sysfs_chip_name:s0
 
-# Perf
-genfscon proc /perfmgr/global_reclaim u:object_r:vendor_proc_perfmgr_global_reclaim:s0
-
 # TEE
 genfscon proc /mitee_log u:object_r:proc_mitee_log:s0
 

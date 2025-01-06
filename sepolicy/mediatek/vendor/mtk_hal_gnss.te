@@ -1,1 +1,0 @@
-allow mtk_hal_gnss aol_geofence_device:chr_file { append getattr ioctl lock open read watch watch_reads write };

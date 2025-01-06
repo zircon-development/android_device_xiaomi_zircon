@@ -1,8 +1,0 @@
-# DRM
-android.hardware.drm.IDrmFactory/widevine    u:object_r:hal_drm_service:s0
-
-# MMLPQ
-vendor.mediatek.hardware.mmlpq.IMmlpq/default u:object_r:mtk_hal_mmlpq_service:s0
-
-# PQ
-vendor.mediatek.hardware.pq_aidl.IPictureQuality_AIDL/default u:object_r:mtk_hal_pq_service:s0
