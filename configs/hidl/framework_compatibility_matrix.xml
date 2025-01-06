@@ -113,13 +113,6 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="aidl" optional="true">
-        <name>vendor.mediatek.hardware.gnss.batching</name>
-        <interface>
-            <name>IMtkGnssBatching</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
     <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.mmagent</name>
         <version>1.0-1</version>

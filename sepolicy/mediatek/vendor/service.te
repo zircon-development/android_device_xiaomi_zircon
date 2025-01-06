@@ -1,6 +1,3 @@
-# GPS Batching
-type mtk_hal_aov_service, protected_service, service_manager_type;
-
 # MMLPQ
 type mtk_hal_mmlpq_service, protected_service, service_manager_type;
 

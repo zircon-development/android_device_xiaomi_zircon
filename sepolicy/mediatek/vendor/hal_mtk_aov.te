@@ -1,8 +1,0 @@
-allow hal_mtk_aov_client hal_mtk_aov_server:binder { call transfer };
-allow hal_mtk_aov_client hal_mtk_aov_server:binder transfer;
-allow hal_mtk_aov_client hal_mtk_aov_server:fd *;
-allow hal_mtk_aov_client mtk_hal_aov_service:service_manager find;
-allow hal_mtk_aov_server hal_mtk_aov_client:binder transfer;
-allow hal_mtk_aov_server hal_mtk_aov_client:binder { call transfer };
-allow hal_mtk_aov_server hal_mtk_aov_client:fd *;
-allow hal_mtk_aov_server mtk_hal_aov_service:service_manager { add find };

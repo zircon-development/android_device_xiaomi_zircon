@@ -1185,7 +1185,6 @@ vendor/lib64/hw/gatekeeper.mitee.so
 
 # GNSS
 vendor/bin/hw/android.hardware.gnss-service.mediatek
-vendor/bin/hw/vendor.mediatek.hardware.gnss.batching-service
 vendor/bin/mnld
 vendor/bin/mtk_agpsd
 vendor/etc/gnss/agps_profiles_conf2.xml
@@ -1211,12 +1210,10 @@ vendor/etc/init/init.gps_pwr.rc
 vendor/etc/init/init.gps_scp.rc
 vendor/etc/init/init.vendor.ins.rc
 vendor/etc/init/mtk_agpsd_p.rc
-vendor/etc/init/mtkgnss-batching.rc
 vendor/etc/mpe.conf
 vendor/etc/slp_conf
 vendor/etc/vintf/manifest/gnss-default.xml:vendor/etc/vintf/manifest/gnss-mediatek.xml
 vendor/etc/vintf/manifest/gnss@2.1-service-mediatek.xml
-vendor/etc/vintf/manifest/mtkgnss-batching.xml
 vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so
 vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so
 vendor/lib64/hw/gps.default.so
@@ -1226,7 +1223,6 @@ vendor/lib64/librpc.so
 vendor/lib64/libviagpsrpc.so
 vendor/lib64/mt6886/libDR.so;SYMLINK=vendor/lib64/libDR.so
 vendor/lib64/mt6886/libmnl.so;SYMLINK=vendor/lib64/libmnl.so
-vendor/lib64/vendor.mediatek.hardware.gnss.batching-V1-ndk.so
 
 # Init (Kerenl)
 vendor/bin/init.insmod.sh

@@ -2,12 +2,3 @@
 attribute hal_mtk_mmlpq;
 attribute hal_mtk_mmlpq_client;
 attribute hal_mtk_mmlpq_server;
-
-# GPS Batching
-attribute hal_mtk_batching;
-attribute hal_mtk_batching_client;
-attribute hal_mtk_batching_server;
-
-attribute hal_mtk_aov;
-attribute hal_mtk_aov_client;
-attribute hal_mtk_aov_server;

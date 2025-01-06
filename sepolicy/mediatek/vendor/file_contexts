@@ -18,7 +18,6 @@
 /vendor/bin/hw/android\.hardware\.drm-service(-lazy)?\.widevine u:object_r:hal_drm_widevine_exec:s0
 
 # GPS
-/(vendor|system/vendor)/bin/hw/vendor\.mediatek\.hardware\.gnss\.batching-service u:object_r:mtk_hal_batching_exec:s0
 /data/vendor/ins(/.*)? u:object_r:vendor_ins_vendor_data_file:s0
 /dev/aol_flp u:object_r:aol_flp_device:s0
 /dev/aol_geofence u:object_r:aol_geofence_device:s0
