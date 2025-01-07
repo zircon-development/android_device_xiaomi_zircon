@@ -1,4 +1,4 @@
-# Unpinned fw from miui_ZIRCONGlobal_OS1.0.9.0.UNOMIXM_444e14ab3f_14.0
+# Unpinned fw from miui_ZIRCONGlobal_OS2.0.4.0.VNOMIXM_d5e7d81322_15.0
 
 dtbo.img;AB
 
