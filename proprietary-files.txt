@@ -1,4 +1,4 @@
-# Unpinned blobs from miui_ZIRCONGlobal_OS2.0.4.0.VNOMIXM_d5e7d81322_15.0
+# Unpinned blobs from OS2.0.4.0.VNOMIXM
 
 # AEE
 vendor/lib64/libaedv.so
