@@ -1,7 +1,18 @@
 # Unpinned blobs from OS2.0.4.0.VNOMIXM
 
 # AEE
+vendor/bin/aee_aedv64_v2
+vendor/bin/aee_dumpstatev_v2
+vendor/bin/aeev_v2
+vendor/bin/hw/vendor.mediatek.hardware.aee@1.1-service
+vendor/etc/aee-commit
+vendor/etc/aee-config
+vendor/etc/init/aee_aedv64_v2.rc
+vendor/etc/init/hw/init.aee.rc
+vendor/etc/init/vendor.mediatek.hardware.aee@1.1-service.rc
 vendor/lib64/libaedv.so
+vendor/lib64/vendor.mediatek.hardware.aee@1.0.so
+vendor/lib64/vendor.mediatek.hardware.aee@1.1.so
 
 # Audio
 vendor/etc/misound_asc_model.tflite
